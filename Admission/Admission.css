@@ -214,7 +214,7 @@ img {
     }
   
     .menu-btn {
-      background: url(/TEST/Homepage/menu.png) no-repeat;
+      background: url(menu.png) no-repeat;
       background-size: 30px;
       background-position: center;
       width: 40px;
@@ -225,7 +225,7 @@ img {
   
     .menu-btn.active {
       z-index: 999;
-      background: url(/TEST/Homepage/close.png) no-repeat;
+      background: url(/close.png) no-repeat;
       background-size: 25px;
       background-position: center;
       transition: 0.3s ease;
@@ -262,7 +262,7 @@ img {
     height: 100vh;
     background-position: center;
     background-size: cover;
-    background-image: url(/TEST/Homepage/resources/Images/Pic3.png);
+    background-image: url(/resources/Images/Pic3.png);
     background-attachment: fixed;
   }
   

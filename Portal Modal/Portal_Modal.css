@@ -207,7 +207,7 @@ section {
     }
   
     .menu-btn {
-      background: url(/TEST/Homepage/menu.png) no-repeat;
+      background: url(menu.png) no-repeat;
       background-size: 30px;
       background-position: center;
       width: 40px;
@@ -218,7 +218,7 @@ section {
   
     .menu-btn.active {
       z-index: 999;
-      background: url(/TEST/Homepage/close.png) no-repeat;
+      background: url(/close.png) no-repeat;
       background-size: 25px;
       background-position: center;
       transition: 0.3s ease;
@@ -254,7 +254,7 @@ section {
     flex: 2;
     width: 500px;
     height: 550px;
-    background-image: url('/TEST/Homepage//resources/Images/HIC_37061.JPG');
+    background-image: url('/resources/Images/HIC_37061.JPG');
     background-size: cover; /* Adjust background size as needed */
     background-position: right; /* Centers the background image within the element */
    
