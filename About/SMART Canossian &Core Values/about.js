@@ -217,26 +217,3 @@ window.addEventListener('scroll', () => {
 
 
 
-
-
-// pdfhsbsdfsad
-const prevButton = document.querySelector('.arrow-prev');
-  const nextButton = document.querySelector('.arrow-next');
-  
-  // Get the slider content
-  const sliderContent = document.querySelector('.section slider');
-  
-  // Calculate the width of a single slide (assuming horizontal slider)
-  const slideWidth = sliderContent.children[0].offsetWidth;
-  
-  // Add event listener to the next arrow button
-  nextButton.addEventListener('click', function() {
-    // Move the slider content to the left by the width of a single slide
-    sliderContent.style.transform = `translateX(-${slideWidth}px)`;
-  });
-  
-  // Add event listener to the previous arrow button
-  prevButton.addEventListener('click', function() {
-    // Move the slider content to the right by the width of a single slide
-    sliderContent.style.transform = `translateX(0)`;
-  });
