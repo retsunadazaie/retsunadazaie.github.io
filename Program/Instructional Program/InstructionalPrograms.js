@@ -47,11 +47,18 @@ function scrollFunction() {
     }
 }
 
-//Button Read more
-function scrollToSection() {
-    var section = document.getElementById("second-section");
-    section.scrollIntoView({ behavior: "smooth" });
-  }
+// Function to handle button click event
+document.getElementById("readmore_button").onclick = function() {
+  // Find the position of the h1 element with class button1
+  var headingElement = document.querySelector('.readmore-button');
+  var position = headingElement.getBoundingClientRect().top + window.scrollY;
+
+  // Scroll to the position of the heading element smoothly
+  window.scrollTo({
+      top: 570,
+      behavior: 'smooth'
+  });
+};
   
 
   

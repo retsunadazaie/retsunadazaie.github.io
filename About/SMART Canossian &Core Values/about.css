@@ -367,7 +367,7 @@ img {
   font-weight: 600;
   background: #006fd7;
   color: #fff;
-  font-size: 10px;
+  font-size: 15px;
   cursor: pointer;
   transition: 0.5s;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1607,6 +1607,40 @@ img {
 }
 
 /* button to top na mabangis */
+
+
+
+/* hello */
+.slider-container {
+  width: 90%; /* Adjust width */
+  max-width: 1150px; /* Limit maximum width */
+  padding: 20px 0; /* Adjust padding for responsiveness */
+}
+
+
+.slider-content {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #0e1d2b;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #0e1d2b;
+}
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+/* hello */
+
+
 
 
 
