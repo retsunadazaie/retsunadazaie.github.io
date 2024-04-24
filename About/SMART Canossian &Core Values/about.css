@@ -236,7 +236,7 @@ img {
     }
   
     .menu-btn {
-      background: url(menu.png) no-repeat;
+      background: url(/menu.png) no-repeat;
       background-size: 30px;
       background-position: center;
       width: 40px;
@@ -1483,7 +1483,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 3rem;
+    font-size: 1em;
     position: fixed;
     width: 90%;
     max-width: 700px;
@@ -1552,7 +1552,7 @@ img {
 
   width: 60%; /* Adjust width as desired */
   height: 60%; /* Adjust height as desired */
-  max-width: 400vw; /* Set a maximum width */
+  max-width: 300vw; /* Set a maximum width */
   max-height: 400vw;
   position: fixed;
   top: 50%;
@@ -2164,6 +2164,15 @@ justify-content: center; /* Aligns items horizontally at the center */
 
 /* tagoooo!! */
 @media (min-width: 321px) and (max-width: 480px) {
+
+  
+  .modal-header {
+    font-size: 1em;
+  }
+  
+
+
+
 
   .thirdsection {
     justify-content: center;

@@ -236,7 +236,7 @@ section {
   z-index: 999;
   min-width: 350px;
   border-radius: 5px;
-  margin-left: -100%; /*added*/
+  margin-left: -90%; /*added*/
 }
 
 .dropdown-p .dropdown-content-2 {
@@ -247,7 +247,7 @@ section {
   z-index: 999;
   min-width: 350px;
   border-radius: 5px;
-  margin-left: -71%; /*added*/
+  margin-left: -61%; /*added*/
 }
 
 
@@ -322,7 +322,7 @@ section {
   }
 
   .menu-btn {
-    background: url(menu.png) no-repeat;
+    background: url(/menu.png) no-repeat;
     background-size: 30px;
     background-position: center;
     width: 40px;
