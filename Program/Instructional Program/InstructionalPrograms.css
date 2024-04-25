@@ -330,13 +330,6 @@ img {
         .image-overlay {
             font-size: 35px;
         }
-    
-    
-        .readmore-button {
-            width: 170px;
-            padding: .5rem .5rem;
-            font-size: 17px;
-        }
       }
 
       @media (max-width: 650px) {
@@ -364,11 +357,7 @@ img {
             font-size: 22px !important;
         }
     
-        .readmore-button {
-            width: 150px;
-            padding: .3rem .3rem;
-            font-size: 14px;
-        }
+  
     }
 
     @media (max-width: 400px) {

@@ -367,11 +367,6 @@ img {
     font-size: 25px;
   }
 
-  .readmore-button {
-    width: 100px;
-    height: 40px;
-    font-size: 13px;
-  }
 
 }
 
@@ -383,12 +378,6 @@ img {
 
   .image-overlay .p-2{
     font-size: 23px;
-  }
-
-  .readmore-button {
-    width: 100px;
-    height: 35px;
-    font-size: 10px;
   }
 }
 
