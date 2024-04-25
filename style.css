@@ -362,11 +362,9 @@ section {
 
 
 /*SMART Section*/
-.smart-section
-{
+.smart-section {
   padding: 0px 0px;
 }
-
 
 .smart-container {
   position: relative;
@@ -390,6 +388,7 @@ section {
   font-family: MontserratRegular;
   font-weight: bolder;
 }
+
 .acronym:not(:last-child)::after {
   content: " .";
   margin-right: 5px;
@@ -417,8 +416,8 @@ section {
 
 .meaning {
   position: absolute;
-  top: calc(45% - 50px);
-  left: calc(100% + 120px);
+  top: calc(50% - 150px); /* Adjusted top position */
+  left: 50%;
   transform: translate(-50%, -70%);
   font-size: 18px;
   opacity: 0;
@@ -429,8 +428,8 @@ section {
   width: 250px;
   border-radius: 5px;
   font-weight: bold;
+  z-index: 999; /* Ensure the meaning appears above other content */
 }
-
 
 .canossian-heart-container {
   position: absolute;
@@ -448,7 +447,7 @@ section {
   color: #0e1d2b;
   letter-spacing: 10px;
   transition: transform 0.10s;
-  padding-left: 85px ;
+  padding-left: 85px;
   padding-right: 85px;
 }
 
@@ -463,35 +462,30 @@ section {
   z-index: 1;
 }
 
+.meanings-container {
+  position: absolute;
+  top: calc(50% - 120px); /* Adjusted top position */
+  left: 50%;
+  transform: translate(-50%, -70%);
+}
+
+.meaning {
+  display: none;
+}
+
 .letter-container:hover .meaning {
-  opacity: 1;
-  left: calc(100% + 100px);
-}
-
-.letter-container:hover .acronym:not(:last-child)::after,
-.letter-container.hover .acronym:not(:last-child)::after {
-  content: none;
-}
-
-
-.letter-container:hover ~ .canossian-heart-container {
-  transform: translate(-50%, 0%);
-  
+  display: block;
 }
 
 .letter-container:last-child .acronym:last-child::after {
   visibility: hidden;
 }
 
-.custom-meaning {
-  left: calc(100% + 260px);
-  width: 3vw;
-}
+
 
 .letter-container:nth-child(4) {
   margin-right: 30px;
 }
-
 
 
 /* Vision, Mission, Core Values  */
@@ -555,7 +549,7 @@ section {
 
 #vision-container {
     background-color: #ddecfa8a;
-    padding: 50px 100px 60px 100px;
+    padding: 50px 50px 60px 150px;
 }
 
 .vision, .mission, .core-values {
@@ -748,7 +742,7 @@ section {
   bottom: -40px;
   height: 40px;
   width: 40px;
-  background-color: #006fd7;
+  background-color: #dbdbdb;
 }
 
 .overlay::after {
@@ -1102,16 +1096,6 @@ footer{
 @media (min-width: 280px) and (max-width:349px)
 {
 
-  .smart-title
-  {
-    font-size: 6.667vw;
-    color: #006FD7;
-    text-align: center;
-    letter-spacing: 4px;
-    font-family: MontserratRegular;
-  }
-
-
   .home .content h1
   {
     font-size: 2.5rem;
@@ -1143,11 +1127,7 @@ footer{
 
   .smart-title
   {
-    font-size: 6.667vw;
-    color: #006FD7;
-    text-align: center;
-    letter-spacing: 4px;
-    font-family: MontserratRegular;
+    font-size: 1.3rem;
   }
   
   .heart-dot
@@ -1285,17 +1265,6 @@ footer{
 
 @media screen and (max-width: 1200px) 
 {
-
-  .smart-title
-  {
-    font-size: 6.667vw;
-    color: #006FD7;
-    text-align: center;
-    letter-spacing: 4px;
-    font-family: MontserratRegular;
-  }
-
-  
   .meaning 
   {
     display: none !important;
@@ -1450,6 +1419,15 @@ footer{
 
 @media (max-width:1200px)
 {
+  .smart-title
+  {
+    
+    font-size: 6.667vw;
+    color: #006FD7;
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: MontserratRegular;
+  }
 
   .heart-dot
   {
