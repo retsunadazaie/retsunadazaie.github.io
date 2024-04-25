@@ -1,0 +1,150 @@
+#title {
+    background: #ff4c68;
+    color: #fff;
+}
+
+h1 {
+    font-family: font-family: "Poppins", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 23%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+h3 {
+    font-family: "League Gothic";
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+    text-align: center;
+}
+
+.icon {
+    color: #ef8172;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    background: #ef8172;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 5%;
+}
+
+@media(max-width:1127px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+}
+
+#cta {
+    background: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: "Montserrat-Black";
+    font-family: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social {
+    margin: 10px 20px;
+}
+
+.gautham {
+    color: black;
+}

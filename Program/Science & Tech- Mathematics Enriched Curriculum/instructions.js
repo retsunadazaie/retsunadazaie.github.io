@@ -57,7 +57,7 @@ document.getElementById("readmore_button").onclick = function() {
 
   // Scroll to the position of the heading element smoothly
   window.scrollTo({
-      top: 590,
+      top: 595,
       behavior: 'smooth'
   });
 };

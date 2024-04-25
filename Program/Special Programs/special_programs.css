@@ -392,15 +392,14 @@ img {
   padding-top: 40px;
   color: #006fd7;
   padding-bottom: 40px;
-  font-size: 35px !important;
-  margin-top: 4%;
+  font-size: 35px;
 }
 
 .special-programs-container {
   border-radius: 4%;
   width: 80%;
   margin: auto;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .program-a {
@@ -749,7 +748,11 @@ img {
 @media (min-width: 321px) and (max-width: 480px) {
 
 
-
+  .image-overlay h2
+  {
+    font-size: 1.5rem;
+  }
+  
   header .brand 
   {
     font-size: 1.1rem;
@@ -891,6 +894,12 @@ img {
 @media (min-width:481px) and (max-width:768px)
 {
 
+  .image-overlay h2
+  {
+    font-size: 1.95rem;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 
   .mobile-title
   {
@@ -989,6 +998,13 @@ img {
 @media (min-width:769px) and (max-width:1024px)
 {
 
+  .image-overlay h2
+  {
+    font-size: 2.1rem;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
   .program-a
   {
     padding-left: 30px;
@@ -1046,7 +1062,12 @@ img {
 @media (min-width:1025px) and (max-width:1200px)
 {
 
-
+  .image-overlay h2
+  {
+    font-size: 3rem;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
   
   .program-a
   {
@@ -1093,6 +1114,12 @@ img {
 @media (min-width:1201px) and (max-width:1920px)
 {
 
+  .image-overlay h2
+  {
+    font-size: 3.2vw;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
 
   .program-a
   {
@@ -1107,9 +1134,8 @@ img {
 
   #special-programs h1
   {
-    font-size: 1.4rem;
+    font-size: 2.604vw;
     padding-bottom: 20px;
-    padding-top: 35px;
   }
 
   .general-p
