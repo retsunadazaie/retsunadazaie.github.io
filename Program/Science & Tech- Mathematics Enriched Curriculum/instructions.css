@@ -402,17 +402,12 @@ img {
     font-size: 18px;
   }
 
-  .readmore-button {
-    width: 90px;
-    height: 30px;
-    font-size: 9px;
-  }
 }
 
 @media (max-width: 441px) {
   .image-overlay h2{
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .image-overlay .p-2{
@@ -423,11 +418,11 @@ img {
 @media (max-width: 345px) {
   .image-overlay h2{
     text-align: center;
-    font-size: 15px;
+    font-size: 16.5px;
   }
 
   .image-overlay .p-2{
-    font-size: 10px;
+    font-size: 13px;
   }
 }
 
@@ -483,6 +478,7 @@ img {
   margin-left: 50px;
   margin-bottom: 20px;
   text-align: justify;
+  text-align: left;
 }
 
 .second-section .content .content-3 h2{

@@ -1102,6 +1102,16 @@ footer{
 @media (min-width: 280px) and (max-width:349px)
 {
 
+  .smart-title
+  {
+    font-size: 6.667vw;
+    color: #006FD7;
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: MontserratRegular;
+  }
+
+
   .home .content h1
   {
     font-size: 2.5rem;
@@ -1133,7 +1143,11 @@ footer{
 
   .smart-title
   {
-    font-size: 1.3rem;
+    font-size: 6.667vw;
+    color: #006FD7;
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: MontserratRegular;
   }
   
   .heart-dot
@@ -1271,6 +1285,17 @@ footer{
 
 @media screen and (max-width: 1200px) 
 {
+
+  .smart-title
+  {
+    font-size: 6.667vw;
+    color: #006FD7;
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: MontserratRegular;
+  }
+
+  
   .meaning 
   {
     display: none !important;
@@ -1425,15 +1450,6 @@ footer{
 
 @media (max-width:1200px)
 {
-  .smart-title
-  {
-    
-    font-size: 6.667vw;
-    color: #006FD7;
-    text-align: center;
-    letter-spacing: 4px;
-    font-family: MontserratRegular;
-  }
 
   .heart-dot
   {
