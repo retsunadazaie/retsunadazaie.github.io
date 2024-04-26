@@ -561,7 +561,7 @@ footer{
 }
 
 .f-container{
-  display: flex;
+  display: grid;
 }
 
 .firstsection{
@@ -716,6 +716,7 @@ footer{
   padding: 20px 100px 30px;
   text-align: center;
   border-top: .5px solid #414040;
+  display: inline-block;
 }
 
 .copyRightText p a{
@@ -736,7 +737,6 @@ footer{
     font-size: 10px;
   }
 }
-
 
 
 

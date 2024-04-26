@@ -4,13 +4,13 @@
 
 const modal= document.querySelector('.modal');
 const openModal= document.querySelector('.open-button');
-const closeModal= document.querySelector('.close-button');
+const closeModal= document.getElementById('close');
 
 openModal.addEventListener('click', () => {
   modal.showModal();
 });
 
-closeModal.addEventListener('click', () => {
+closeModal.addEventListener('click', function() {
   modal.close();
 });
 

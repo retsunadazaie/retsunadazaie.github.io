@@ -841,8 +841,7 @@ section {
 
 
 /* Footer Section */
-/*-------------------------------------------------------*/
-
+/* -------------------------------------------------------------------------------------- */
 footer{
   position: relative;
   width: 100%;
@@ -908,6 +907,7 @@ footer{
   font-size: 20px;
 }
 
+
 .firstsection ul {
   color: #fff;
   list-style-type: none; /* Remove default bullet points */
@@ -919,7 +919,6 @@ footer{
   display: inline-block; /* Display list items in a row */
   margin-right: 10px; /* Adjust spacing between list items */
 }
-
 
 .firstsection ul li img {
   width: 35px;
@@ -1022,7 +1021,6 @@ footer{
     font-size: 10px;
   }
 }
-
 
 
 /* Section Seperation */

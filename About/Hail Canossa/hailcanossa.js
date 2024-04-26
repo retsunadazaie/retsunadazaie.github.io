@@ -35,3 +35,31 @@ btns.forEach((btn, i) => {
         sliderNav(i);
     });
 });
+
+
+// eto ay js ng button to top pls
+// Get the button element
+const buttonTop = document.getElementById('buttontop');
+
+// Add a click event listener to the button
+buttonTop.addEventListener('click', () => {
+  // Scroll to the top of the page smoothly
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+
+  // Hide the button by adding the 'hidden' class
+  buttonTop.classList.add('hidden');
+});
+
+// Show the button when the user scrolls
+window.addEventListener('scroll', () => {
+  // If the user scrolls beyond 100 pixels from the top, show the button
+  if (window.scrollY > 950) {
+    buttonTop.classList.remove('hidden');
+  } else {
+    buttonTop.classList.add('hidden');
+  }
+});
+

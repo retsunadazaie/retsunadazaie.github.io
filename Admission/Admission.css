@@ -52,7 +52,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 150px;
+  padding: 6px 150px;
   background-color: #006fd7; /* Initial background color */
   transition: background-color 0.5s ease; /* Transition for background color */
 }
@@ -342,12 +342,90 @@ img {
 
 
 /* -------------------------------------------------------------------------------------------- */
-  .secondsection{
+
+#scholarship-grid
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  gap: 15px;
+  padding-bottom: 40px;
+}
+
+.grid-title
+{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: #006FD7;
+}
+
+.grid-1, .grid-2, .grid-3
+{
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: #d0cccc;
+  padding-bottom: 60px;
+}
+
+.list-explain
+{
+  padding-left: 25px;
+  padding-right: 20px;
+  font-size: 14px;
+}
+
+.grid-ul
+{
+  list-style: inside;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+.grid-ul li
+{
+  padding-bottom: 5px;
+  font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.secondsection{
     display: flex;
     justify-content: center;
     align-items: center;
     background: rgb(255, 255, 255);
-    min-height: 90vh;
     margin-bottom: 70px;
   }
 
@@ -553,7 +631,6 @@ img {
   .thirdsection {
     background-color: rgb(255, 255, 255);
     width: 100%;
-    min-height: 160vh;
     padding: 20px; /* Adjust padding as needed */
     box-sizing: border-box;
 }
@@ -742,6 +819,7 @@ img {
     margin-bottom: 8px;
   }
 }
+
 
 /*-------------------------------------------------------*/
 
@@ -966,6 +1044,92 @@ footer{
 
   
 
- 
 
+@media (max-width:320px)
+{
+
+  #scholarship-grid
+  {
+    grid-template-columns: 1fr;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+}
+
+ @media (min-width:321px) and (max-width:480px)
+ {
+  #scholarship-grid
+  {
+    grid-template-columns: 1fr;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+ }
+
+
+ @media (min-width:481px) and (max-width:560px)
+ {
+  #scholarship-grid
+  {
+    grid-template-columns: 1fr;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+ }
+
+ 
+ @media (min-width:1115px) and (max-width:1365px)
+ {
+  #scholarship-grid
+  {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
   
+ }
+
+ @media (min-width:1366px) and (max-width:1499px)
+ {
+  #scholarship-grid
+  {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  
+ }
+
+
+ 
+ @media (min-width:1500px) and (max-width:1699px)
+ {
+  #scholarship-grid
+  {
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+  
+ }
+
+
+ @media (min-width:1700px) and (max-width:1830px)
+ {
+  #scholarship-grid
+  {
+    padding-left: 450px;
+    padding-right: 450px;
+  }
+  
+ }
+
+
+ @media (min-width:1831px) and (max-width:2000px)
+ {
+  #scholarship-grid
+  {
+    padding-left: 500px;
+    padding-right: 500px;
+  }
+  
+ }

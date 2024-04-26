@@ -254,7 +254,7 @@ section {
     flex: 2;
     width: 500px;
     height: 550px;
-    background-image: url('/resources/Images/HIC_37061.JPG');
+    background-image: url('/resources/Images/finalback.png');
     background-size: cover; /* Adjust background size as needed */
     background-position: right; /* Centers the background image within the element */
    
@@ -308,10 +308,10 @@ section {
 }
 
 .container .head1 {
-  text-shadow: -1.5px -1.5px 0 #006FD7,  
-               1.5px -1.5px 0 #006FD7,
-               -1.5px 1.5px 0 #006FD7,
-               1.5px 1.5px 0 #006FD7;
+  text-shadow: -1.8px -1.8px 0 #006FD7,  
+               1.8px -1.8px 0 #006FD7,
+               -1.8px 1.8px 0 #006FD7,
+               1.8px 1.8px 0 #006FD7;
 }
 
 .container-card {
