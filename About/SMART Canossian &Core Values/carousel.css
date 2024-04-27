@@ -1,7 +1,8 @@
+/* eto yung sa carousel preeeeeeeeeeeeeeeee!!!!!!!! */
 body{
     padding: 100px;
 }
-
+/* eto yung sa carousel preeeeeeeeeeeeeeeee!!!!!!!! */
 .button {
     background-color: #006FD7;
 }
@@ -15,7 +16,6 @@ body{
     border: 3px solid #004281;
     border-radius: 30px;
 }
-
 .carousel-control-next-icon{
     background-color: #006FD7;
     border-radius: 50px;
@@ -24,22 +24,17 @@ body{
     background-color: #006FD7;
     border-radius: 50px;
 }
-
 .carousel-item {
     padding: 7% 8%;
     color: white;
-
 }
 .carousel-item h2{
     color: #A9A9A9;
     font-size: 30px;
 }
-
 .carousel-item h1{
     margin-bottom:3%;
 }
-
-
 .open-button,
 .open-button2,
 .open-button3,
@@ -58,16 +53,10 @@ body{
   font-weight: 600;
   border-radius: 99px;
   cursor: pointer;
-
 }
-
-
-
-
 #pricing {
     padding: 5%;
 }
-
 @media(max-width:1127px) {
     #title {
         text-align: center;
@@ -78,7 +67,9 @@ body{
         transform: rotate(0);
     }
 }
-
+.modal-header h1{
+    font-size: 30px;
+}
 /* modal */
 .modal-header {
     display: flex;
@@ -93,7 +84,6 @@ body{
     padding-bottom: 10px;
     padding-top: 40px;
     margin-left: 20px;
-    
   }
   .modal1, 
   .modal2,
@@ -103,7 +93,6 @@ body{
   .modal6,
   .modal7,
   .modal8 {
-
   width: 60%; /* Adjust width as desired */
   height: 60%; /* Adjust height as desired */
   max-width: 300vw; /* Set a maximum width */
@@ -117,5 +106,7 @@ body{
   text-align: justify;
   }
   .inside{
-    margin: 10px 20px 10px 20px;
+    margin: 40px 20px 10px 20px;
+    font-size: 20px;
   }
+/* eto yung sa carousel preeeeeeeeeeeeeeeee!!!!!!!! */

@@ -442,7 +442,6 @@ img {
 .second-section .content .content-1 p {
   text-align: justify;
   text-indent: 50px;
-  margin-bottom: 2%;
 }
 
 .second-section .content .content-1,
@@ -489,7 +488,7 @@ img {
 
 .second-section .content .content-3 .ol-description{
   margin-left: 50px;
-  margin-bottom: 80px;
+  margin-bottom: 55px;
   text-align: justify;
 }
 

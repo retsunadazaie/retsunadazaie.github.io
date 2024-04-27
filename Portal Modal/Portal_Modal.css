@@ -105,6 +105,7 @@ header .navigation .navigation-items a:hover:before {
 
 section {
     padding: 63px 0px  0px;
+    
 }
 
 /* Dropdown styles */
@@ -249,11 +250,15 @@ section {
 /*First Section*/
 .container{
     display: flex;
+    min-height: 100VH; /*ADDED*/
 }
 .grid1 {
+    display: flex;
     flex: 2;
     width: 500px;
-    height: 550px;
+    align-items: center;
+    justify-content: center;
+    min-height: 70VH;
     background-image: url('/resources/Images/finalback.png');
     background-size: cover; /* Adjust background size as needed */
     background-position: right; /* Centers the background image within the element */
@@ -261,10 +266,13 @@ section {
 }
 
 .grid2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex: 1;
     width: 500px;
-    height: 550px;
-    background-color: rgb(14, 78, 131);
+    min-height: 70VH;
+    background-color: #0e4e83;
 }
 
 @media (max-width: 1000px){
@@ -302,7 +310,6 @@ section {
   color: #fff;
   font-size: 50px;
   text-align: center;
-  margin-top: 70px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
   animation: fade-up 1.5s;
 }
@@ -391,6 +398,11 @@ section {
 }
 
 /* Media Query for smaller screens */
+@media (max-width: 1920px) {
+
+  
+}
+
 @media (max-width: 1000px) {
   .container {
     flex-direction: column;
@@ -553,9 +565,9 @@ section {
   transform: scale(1.1);
 }
 
-/*-------------------------------------------------------*/
+ /*-------------------------------------------------------*/
 
-footer{
+ footer{
   position: relative;
   width: 100%;
 }
@@ -603,14 +615,12 @@ footer{
   }
 
  
-  .thirdsection .info li  {
+  .thirdsection .info li {
     font-size: 10px; /* Adjust font size for smaller screens */
     text-align: center; /* Center align the text */
     align-items: center;
     justify-content: center;  
   }
-
-  
 }
 
 .firstsection h2,
@@ -621,6 +631,7 @@ footer{
   margin-bottom: 15px;
   font-size: 20px;
 }
+
 
 .firstsection ul {
   color: #fff;
@@ -644,10 +655,11 @@ footer{
   transition: .5s;
 }
 
-.firstsection ul li img:hover {
-  transform: scale(1.2);
+.firstsection ul li img:hover{
   background-color: #00141C;
+  transform: scale(1.2);
 }
+
 
 
 .secondsection ul{
@@ -727,7 +739,6 @@ footer{
 .copyRightText p a:hover{
   color: #006FD7;
 }
-
 
 @media (max-width: 1000px) {
   .copyRightText {

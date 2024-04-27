@@ -1,9 +1,7 @@
-//Navigation Bar 
 
 //MODAL1
-
-const modal= document.querySelector('.modal');
-const openModal= document.querySelector('.open-button');
+const modal= document.getElementById('modal1');
+const openModal= document.getElementById('open-button');
 const closeModal= document.getElementById('close');
 
 openModal.addEventListener('click', () => {
@@ -96,8 +94,6 @@ openModal7.addEventListener('click', () => {
 closeModal7.addEventListener('click', function() {
   modal7.close();
 });
-
-
 //MODAL8
 const modal8= document.querySelector('.modal8');
 const openModal8= document.querySelector('.open-button8');
@@ -106,13 +102,10 @@ const closeModal8= document.getElementById('close8');
 openModal8.addEventListener('click', () => {
   modal8.showModal();
 });
-
 closeModal8.addEventListener('click', function() {
   modal8.close();
 });
-
-
-
+//---------------------------------------
 //---------------------------------------
 const menuBtn = document.querySelector(".menu-btn");
 const navigation = document.querySelector(".navigation");

@@ -8,7 +8,7 @@
 
 
 //MODAL1
-const modal= document.getElementById('modal');
+const modal= document.getElementById('modal1');
 const openModal= document.getElementById('open-button');
 const closeModal= document.getElementById('close');
 
