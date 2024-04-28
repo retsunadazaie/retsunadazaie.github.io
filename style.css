@@ -1243,22 +1243,3 @@ footer{
 /*          */
 /*          */
 /*          */
-
-
-@media (min-width:1600px) and (max-width:1920px) {
-  .meaning {
-    position: absolute;
-    top: calc(45% - 60px);
-    left: calc(100% + 120px);
-    transform: translate(-50%, -70%);
-    font-size: 18px;
-    opacity: 0;
-    transition: opacity 0.3s, transform 0.5s;
-    background-color: transparent;
-    color: #0e1d2b;
-    text-align: center;
-    width: 250px;
-    border-radius: 5px;
-    font-weight: bold;
-  }
-}
