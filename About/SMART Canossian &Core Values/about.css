@@ -500,6 +500,7 @@ header .navigation .navigation-items a:hover:before {
       'wght' 400,
       'GRAD' 0,
       'opsz' 24
+      'color:' white !important;
     }
 
     
@@ -841,6 +842,7 @@ cursor: pointer;
 }
 .modal-header h1{
   font-size: 30px;
+  color: white;
 }
 /* modal */
 .modal-header {
@@ -851,10 +853,10 @@ cursor: pointer;
   position: fixed;
   width: 100%;
   max-width: 850px;
-  background-color: white; 
   margin-top: -5px;
   padding-bottom: 10px;
   padding-top: 40px;
+  background-color: #006FD7;
 }
 .modal1, 
 .modal2,
@@ -1134,7 +1136,7 @@ cursor: pointer;
 
 .core1{
   font-size: 8px;
-  padding-top: 5vh;
+  padding-top: 2.5vh;
 }
 
 .carousel-item h1{
@@ -1143,7 +1145,7 @@ cursor: pointer;
 }
 
 .inside{
-  margin: 40px 20px 10px 20px;
+  margin: 20px 20px 10px 20px;
   font-size: 10px;
 }
 .carousel-indicators {
@@ -1176,6 +1178,38 @@ cursor: pointer;
 
 .carousel-item {
   height: 25vh;
+}
+.modal1, 
+.modal2,
+.modal3,
+.modal4,
+.modal5,
+.modal6,
+.modal7,
+.modal8 {
+width: 80%; /* Adjust width as desired */
+height: 30%; /* Adjust height as desired */
+max-width: 500vw; /* Set a maximum width */
+max-height: 40vh;
+position: fixed;
+
+}
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1em;
+  position: fixed;
+  width: 100%;
+  max-width: 850px;
+  background-color: white; 
+  padding-bottom: 10px;
+  padding-top: 40px;
+  background-color: #006FD7;
+}
+.modal-header h1{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 }
@@ -1393,7 +1427,7 @@ cursor: pointer;
 }
 .container-wrapper{
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 .cores{
   font-size: 7.5vw;
@@ -1830,6 +1864,11 @@ height: 5vh;
   justify-content: left;
   width: 49vw;
 }
+.modal-header h1 {
+  font-size: 30px;
+  padding-bottom: 0px;
+}
+
 }
 
 @media (min-width: 1367px) and (max-width: 1600px){
@@ -1862,6 +1901,10 @@ border-radius: 99px;
 cursor: pointer;
 height: 5vh;
 }
+
+
+
+
 }
 @media (min-width: 1601px) and (max-width: 1920px){
 .testinonials{
