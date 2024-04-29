@@ -409,13 +409,14 @@ section {
   max-height: 100px; /* Adjust this value based on your content height */
 }
 
-
+/* --------------------------------------------------------------------------------- */
 /* Vision, Mission, Core Values  */
   
   .second-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #ddecfa8a;
     align-items: flex-start;
 }
 
@@ -428,17 +429,19 @@ section {
 .grid2 {
     flex: 1;
     width: 100%;
-    background-color: #ddecfa8a;
+
 }
 
 @media (max-width: 1000px) {
     .second-section {
         flex-direction: column;
+        background-color: #ddecfa8a;
     }
 
     .grid1 {
         width: 100%;
         order: 2;
+        
     }
 
     .grid2{
@@ -448,8 +451,6 @@ section {
 
     #vision-container {
         display: grid;
-        grid-template-rows: repeat(3, auto);
-        background-color: #ddecfa8a;
         text-align: center;
     }
 
@@ -460,17 +461,21 @@ section {
 }
 
 @media (max-width: 1000px) {
+
+  .second-section {
+    flex-direction: column;
+    background-color: #ddecfa8a;
+}
       #vision-container {
         display: grid;
         grid-template-rows: repeat(3, auto);
-        background-color: #ddecfa8a;
+
         text-align: center;
         padding: 0px 50px 30px 50px !important;
     }
 }
 
 #vision-container {
-    background-color: #ddecfa8a;
     padding: 50px 50px 60px 150px;
 }
 
@@ -587,6 +592,7 @@ section {
     }
 }
 
+/* ------------------------------------------------------------------------------ */
 /* Program Section */
 .section-title {
   margin-top: 60px;

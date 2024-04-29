@@ -775,7 +775,6 @@ footer{
   justify-content: center;
   align-items: center;
   margin: auto;
-  border: 3px solid #004281;
   border-radius: 30px;
 }
 .carousel-control-next-icon{
@@ -1079,15 +1078,17 @@ cursor: pointer;
   text-align: center;
   }
 .flip-card {
-  width: 50vh;
+  width: 45vw;
   height: 4vh;
   font-family: sans-serif;
+ 
 
 }
 .flip-card-front {
   height: 5rem;
   border-radius: 20px 20px 20px 20px;
   justify-content: left;
+  width: 68vw;
 }
 .container p {
   font-size: 20px;
@@ -1121,6 +1122,53 @@ cursor: pointer;
   font-size: 10px;
 }
 
+.core1{
+  font-size: 8px;
+  padding-top: 5vh;
+}
+
+.carousel-item h1{
+  padding-bottom: 3vh;
+  font-size: 13px;
+}
+
+.inside{
+  margin: 40px 20px 10px 20px;
+  font-size: 10px;
+}
+.carousel-indicators {
+  display: none;
+}
+.carousel-item h2{
+  color: #A9A9A9;
+  font-size: 10px;
+}
+
+.open-button,
+.open-button2,
+.open-button3,
+.open-button4,
+.open-button5,
+.open-button6,
+.open-button7,
+.open-button8 {
+justify-content: center;
+display: inline-block;
+padding: 7px 30px;
+border: none;
+background-color: white;
+color: #004281;
+font-size: 10px;
+font-weight: 600;
+border-radius: 99px;
+cursor: pointer;
+}
+
+.carousel-item {
+  height: 25vh;
+}
+
+}
 
 
 
@@ -1130,4 +1178,691 @@ cursor: pointer;
 
 
 
+
+
+
+
+@media (min-width: 481px) and (max-width: 560px) {
+
+  .image-overlay{
+    font-size: 80%;
+    justify-content: center;
+  }
+  .canus{
+
+    padding-top: 1px;
+  }
+  .button1{
+    font-size: 70%;
+    width: 40%;
+    height: 2rem;
+    font-weight: 300;
+    transition: 0.2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+  }
+  .container{
+    display: none;
+  }
+  .maincont{
+    position: relative;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  .smart{
+    font-size: 7.5vh !important;
+    letter-spacing: 1px;
+  }
+  .heart{
+    letter-spacing: 0.5px;
+    font-size: 3.5vh;
+}
+.meaning1{
+  font-size: 12px;
+  font-weight: 500em;
+  text-align: justify;
+  margin: 23px 0px 0px 0px;
+  text-align: center;
+  }
+.flip-card {
+  width: 45vw;
+  height: 4vh;
+  font-family: sans-serif;
+ 
+
+}
+.flip-card-front {
+  height: 5rem;
+  border-radius: 20px 20px 20px 20px;
+  justify-content: left;
+  width: 68vw;
+  
+  
+}
+.container p {
+  font-size: 20px;
+  margin-top: .1em;
+  font-weight: 1000;
+  color: white;
+}
+.container-wrapper{
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.cores{
+  font-size: 7.5vw;
+}
+.slider__item-content{
+  padding: 20px 20px;
+}
+.heading-3{
+  font-size: 12px;
+  margin: 10px 10px 10px 0px;
+  line-height: 15px !important;
+  
+}
+.heading-2{
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 0px;
+  
+}
+.slider__item-text{
+  font-size: 10px;
+}
+
+.core1{
+  font-size: 8px;
+}
+
+.carousel-item h1{
+  padding-bottom: 5vh;
+  font-size: 15px;
+}
+
+.carousel-indicators {
+  display: none;
+}
+.carousel-item h2{
+  color: #A9A9A9;
+  font-size: 13px;
+}
+
+.open-button,
+.open-button2,
+.open-button3,
+.open-button4,
+.open-button5,
+.open-button6,
+.open-button7,
+.open-button8 {
+justify-content: center;
+display: inline-block;
+padding: 7px 30px;
+border: none;
+background-color: white;
+color: #004281;
+font-size: 10px;
+font-weight: 600;
+border-radius: 99px;
+cursor: pointer;
+}
+
+
+
+}
+
+@media (min-width: 561px) and (max-width: 663px){
+
+  .image-overlay{
+    font-size: 80%;
+    justify-content: center;
+  }
+  .canus{
+
+    padding-top: 1px;
+  }
+  .button1{
+    font-size: 70%;
+    width: 40%;
+    height: 2rem;
+    font-weight: 300;
+    transition: 0.2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+  }
+  .container{
+    display: none;
+  }
+  .maincont{
+    position: relative;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  .smart{
+    font-size: 7.5vh !important;
+    letter-spacing: 1px;
+  }
+  .heart{
+    letter-spacing: 0.5px;
+    font-size: 3.5vh;
+}
+.meaning1{
+  font-size: 12px;
+  font-weight: 500em;
+  text-align: justify;
+  margin: 23px 0px 0px 0px;
+  text-align: center;
+  }
+.flip-card {
+  width: 45vh;
+  height: 4vh;
+  font-family: sans-serif;
+ 
+
+}
+.flip-card-front {
+  height: 5rem;
+  border-radius: 20px 20px 20px 20px;
+  justify-content: left;
+  width: 75vw;
+  
+  
+}
+.container p {
+  font-size: 20px;
+  margin-top: .1em;
+  font-weight: 1000;
+  color: white;
+}
+.container-wrapper{
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.cores{
+  font-size: 7.5vw;
+}
+.slider__item-content{
+  padding: 20px 20px;
+}
+.heading-3{
+  font-size: 12px;
+  margin: 10px 10px 10px 0px;
+  line-height: 15px !important;
+  
+}
+.heading-2{
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 0px;
+  
+}
+.slider__item-text{
+  font-size: 10px;
+}
+
+.core1{
+  font-size: 8px;
+}
+
+.carousel-item h1{
+  padding-bottom: 5vh;
+  font-size: 15px;
+}
+
+.carousel-indicators {
+  display: none;
+}
+.carousel-item h2{
+  color: #A9A9A9;
+  font-size: 13px;
+}
+
+.open-button,
+.open-button2,
+.open-button3,
+.open-button4,
+.open-button5,
+.open-button6,
+.open-button7,
+.open-button8 {
+justify-content: center;
+display: inline-block;
+padding: 7px 30px;
+border: none;
+background-color: white;
+color: #004281;
+font-size: 10px;
+font-weight: 600;
+border-radius: 99px;
+cursor: pointer;
+}
+
+
+}
+
+@media (min-width: 664px) and (max-width: 768px){
+
+
+
+  .image-overlay{
+    font-size: 80%;
+    justify-content: center;
+  }
+  .canus{
+    display: none;
+  }
+  .button1{
+    font-size: 70%;
+    width: 40%;
+    height: 2rem;
+    font-weight: 300;
+    transition: 0.2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+  }
+  
+  .container {
+    width: 100px;
+    height: 80px;
+    border-radius: 20px;
+    text-align: center;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-right: 0px;
+    margin-left: 10px;
+    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .maincont{
+    position: relative;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  .smart{
+    font-size: 7.5vh !important;
+    letter-spacing: 1px;
+  }
+  .heart{
+    letter-spacing: 0.5px;
+    font-size: 3.5vh;
+}
+.meaning1{
+  font-size: 15px;
+  font-weight: 500em;
+  text-align: justify;
+  margin: 23px 0px 0px 0px;
+  text-align: center;
+  }
+.flip-card {
+  width: 45vw;
+  height: 4vh;
+  font-family: sans-serif;
+
+
+}
+
+.button1{
+  font-size: 70%;
+  width: 20%;
+  height: 2rem;
+  justify-content: center;
+}
+
+
+.flip-card-front {
+  height: 5rem;
+  border-radius: 0px 20px 20px 0px;
+  justify-content: left;
+  width: 60vw;
+  
+  
+}
+.container p {
+  font-size: 25px;
+  margin-top: 1em;
+  font-weight: 1000;
+  color: white;
+}
+.container-wrapper{
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.cores{
+  font-size: 5.5vw;
+  padding-top: 5vh;
+}
+.slider__item-content{
+  padding: 20px 20px;
+}
+.heading-3{
+  font-size: 12px;
+  margin: 10px 10px 10px 0px;
+  line-height: 15px !important;
+  
+}
+
+.canus{
+  display: none;
+}
+.heading-2{
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 0px;
+  
+}
+.slider__item-text{
+  font-size: 10px;
+}
+
+.core1{
+  font-size: 8px;
+}
+
+.carousel-item h1{
+  padding-bottom: 5vh;
+  font-size: 15px;
+}
+
+.carousel-indicators {
+  display: none;
+}
+.carousel-item h2{
+  color: #A9A9A9;
+  font-size: 13px;
+}
+
+.open-button,
+.open-button2,
+.open-button3,
+.open-button4,
+.open-button5,
+.open-button6,
+.open-button7,
+.open-button8 {
+justify-content: center;
+display: inline-block;
+padding: 7px 30px;
+border: none;
+background-color: white;
+color: #004281;
+font-size: 10px;
+font-weight: 600;
+border-radius: 99px;
+cursor: pointer;
+}
+}
+
+@media (min-width: 769px) and (max-width: 939px){
+
+
+  .image-overlay{
+    font-size: 80%;
+    justify-content: center;
+  }
+  .canus{
+    display: none;
+  }
+  .button1{
+    font-size: 70%;
+    width: 40%;
+    height: 2rem;
+    font-weight: 300;
+    transition: 0.2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+  }
+  
+  .container {
+    width: 100px;
+    height: 80px;
+    border-radius: 20px;
+    text-align: center;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-right: 0px;
+    margin-left: 10px;
+    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .maincont{
+    position: relative;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  .smart{
+    font-size: 7.5vh !important;
+    letter-spacing: 1px;
+  }
+  .heart{
+    letter-spacing: 0.5px;
+    font-size: 3.5vh;
+}
+.meaning1{
+  font-size: 15px;
+  font-weight: 500em;
+  text-align: justify;
+  margin: 23px 0px 0px 0px;
+  text-align: center;
+  }
+.flip-card {
+  width: 45vw;
+  height: 4vh;
+  font-family: sans-serif;
+
+
+}
+
+.button1{
+  font-size: 80%;
+  width: 20%;
+  height: 2rem;
+  justify-content: center;
+}
+
+
+.flip-card-front {
+  height: 5rem;
+  border-radius: 0px 20px 20px 0px;
+  justify-content: left;
+  width: 60vw;
+}
+.container p {
+  font-size: 25px;
+  margin-top: 1em;
+  font-weight: 1000;
+  color: white;
+}
+.container-wrapper{
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.cores{
+  font-size: 5.5vw;
+  padding-top: 5vh;
+}
+.slider__item-content{
+  padding: 20px 20px;
+}
+.heading-3{
+  font-size: 12px;
+  margin: 10px 10px 10px 0px;
+  line-height: 15px !important; 
+}
+.canus{
+  display: none;
+}
+.heading-2{
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 0px; 
+}
+.slider__item-text{
+  font-size: 10px;
+}
+.core1{
+  font-size: 8px;
+}
+.carousel-item h1{
+  padding-bottom: 5vh;
+  font-size: 15px;
+}
+.carousel-indicators {
+  display: none;
+}
+.carousel-item h2{
+  color: #A9A9A9;
+  font-size: 13px;
+}
+.open-button,
+.open-button2,
+.open-button3,
+.open-button4,
+.open-button5,
+.open-button6,
+.open-button7,
+.open-button8 {
+justify-content: center;
+display: inline-block;
+padding: 7px 30px;
+border: none;
+background-color: white;
+color: #004281;
+font-size: 10px;
+font-weight: 600;
+border-radius: 99px;
+cursor: pointer;
+}
+}
+
+@media (min-width: 940px) and (max-width: 1024px){
+  .meaning1{
+    font-size: 20px;
+  }
+  .flip-card-front {
+    width: 60vw;
+  }
+.flip-card{
+  width: 65vw;
+}
+.open-button,
+.open-button2,
+.open-button3,
+.open-button4,
+.open-button5,
+.open-button6,
+.open-button7,
+.open-button8 {
+justify-content: center;
+display: inline-block;
+padding: 7px 30px;
+border: none;
+background-color: white;
+color: #004281;
+font-size: 10px;
+font-weight: 600;
+border-radius: 99px;
+cursor: pointer;
+}
+
+.carousel-item h1{
+  font-size: 20px;
+}
+.carousel-item h2{
+  font-size: 15px;
+}
+}
+
+@media (min-width: 1025px) and (max-width: 1366px){
+  .carousel-item h1{
+    font-size: 20px;
+  }
+  .carousel-item h2{
+    font-size: 15px;
+  }
+  .meaning1{
+    font-size: 20px;
+  }
+.open-button,
+.open-button2,
+.open-button3,
+.open-button4,
+.open-button5,
+.open-button6,
+.open-button7,
+.open-button8 {
+justify-content: center;
+display: inline-block;
+padding: 7px 30px;
+border: none;
+background-color: white;
+color: #004281;
+font-size: 14px;
+font-weight: 600;
+border-radius: 99px;
+cursor: pointer;
+height: 5vh;
+}
+.flip-card-front {
+  border-radius: 0px 20px 20px 0px;
+  justify-content: left;
+  width: 49vw;
+}
+}
+
+@media (min-width: 1367px) and (max-width: 1600px){
+  .carousel-item h1{
+    font-size: 24px;
+  }
+  .carousel-item h2{
+    font-size: 15px;
+  }
+  .meaning1{
+    font-size: 24px;
+  }
+.open-button,
+.open-button2,
+.open-button3,
+.open-button4,
+.open-button5,
+.open-button6,
+.open-button7,  
+.open-button8 {
+justify-content: center;
+display: inline-block;
+padding: 7px 30px;
+border: none;
+background-color: white;
+color: #004281;
+font-size: 14px;
+font-weight: 600;
+border-radius: 99px;
+cursor: pointer;
+height: 5vh;
+}
+}
+@media (min-width: 1601px) and (max-width: 1920px){
+.testinonials{
+  width: 10vw;
+}
+.flip-card-front {
+  border-radius: 0px 20px 20px 0px;
+  justify-content: left;
+  width: 36vw;
+}
+.meaning1{
+  font-size: 23px;
+}
 }

@@ -422,7 +422,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 6% 10% 10% 10%;
+  padding: 6% 10% 1px 10%;
 }
 
 .second-section .content {

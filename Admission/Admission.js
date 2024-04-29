@@ -55,31 +55,18 @@ apply_button.addEventListener("click", function() {
     // Redirect user to the specified link when card 1 is clicked
     window.location.href = "https://canossaacademylipasis.orangeapps.ph/canossaacademylipa/admission";
   });
-  
 
 
-  // eto ay js ng button to top pls
-// Get the button element
-const buttonTop = document.getElementById('buttontop');
+// Function to handle button click event
+document.getElementById("readmore_button").onclick = function() {
+  // Find the position of the h1 element with class button1
+  var headingElement = document.querySelector('.readmore-button');
+  var position = headingElement.getBoundingClientRect().top + window.scrollY;
 
-// Add a click event listener to the button
-buttonTop.addEventListener('click', () => {
-  // Scroll to the top of the page smoothly
+  // Scroll to the position of the heading element smoothly
   window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
+      top: 625,
+      behavior: 'smooth'
   });
-
-  // Hide the button by adding the 'hidden' class
-  buttonTop.classList.add('hidden');
-});
-
-// Show the button when the user scrolls
-window.addEventListener('scroll', () => {
-  // If the user scrolls beyond 100 pixels from the top, show the button
-  if (window.scrollY > 800) {
-    buttonTop.classList.remove('hidden');
-  } else {
-    buttonTop.classList.add('hidden');
-  }
-});
+};
+  
