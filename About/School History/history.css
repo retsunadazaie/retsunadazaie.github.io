@@ -55,7 +55,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 150px;
+  padding: 15px 150px 13px 150px;
   background-color: #006FD7; /* Initial background color */
   transition: background-color 0.5s ease; /* Transition for background color */
 }
@@ -276,104 +276,104 @@ header .navigation .navigation-items a:hover:before {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: self-start;
+  align-items: center;
 }
 
 .image-overlay h2{
   color: #ffffff;
   font-size: 47px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 10);
-  padding-left: 150px;
+
 }
 
 .image-overlay p{
   color: #ffffff;
   font-size: 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 10); 
-  padding-left: 150px;
+
 }
 
 @media (max-width: 915px) {
   .image-overlay h2{
     font-size: 47px;
-    padding-left: 100px;
+
   }
   
   .image-overlay p{
     font-size: 17px;
-    padding-left: 100px;
+
   }
 }
 
 @media (max-width: 865px) {
   .image-overlay h2{
     font-size: 42px;
-    padding-left: 50px;
+
   }
   
   .image-overlay p{
     font-size: 18px;
-    padding-left: 50px;
+
   }
 }
 
 @media (max-width: 733px) {
   .image-overlay h2{
     font-size: 38px;
-    padding-left: 50px;
+
   }
   
   .image-overlay p{
     font-size: 15px;
-    padding-left: 50px;
+
   }
 }
 
 @media (max-width: 668px) {
   .image-overlay h2{
     font-size: 30px;
-    padding-left: 50px;
+
   }
   
   .image-overlay p{
     font-size: 13px;
-    padding-left: 50px;
+
   }
 }
 
 @media (max-width: 540px) {
   .image-overlay h2{
     font-size: 25px;
-    padding-left: 50px;
+
   }
   
   .image-overlay p{
     font-size: 13px;
-    padding-left: 50px;
+
   }
 }
 
 @media (max-width: 460px) {
   .image-overlay h2{
     font-size: 20px;
-    padding-left: 50px;
+
   }
   
   .image-overlay p{
     font-size: 13px;
-    padding-left: 50px;
+
   }
 }
 
 @media (max-width: 375px) {
   .image-overlay h2{
     font-size: 16px;
-    padding-left: 50px;
+
   }
   
   .image-overlay p{
     font-size: 13px;
-    padding-left: 50px;
+
   }
 }
 

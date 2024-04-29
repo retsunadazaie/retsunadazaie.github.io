@@ -55,7 +55,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 150px;
+  padding: 15px 150px 5px 150px;
   background-color: #006FD7;
   transition: background-color 0.5s ease; /* Transition for background color */
 }
