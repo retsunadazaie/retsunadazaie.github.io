@@ -1092,7 +1092,7 @@ cursor: pointer;
   .button1{
     font-size: 70%;
     width: 40%;
-    height: 2rem;
+    height:3rem;
     font-weight: 300;
     transition: 0.2;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1523,6 +1523,17 @@ border-radius: 99px;
 cursor: pointer;
 }
 
+.modal-header{
+width: 100%; /* Adjust width as desired */
+height: 15%;
+max-width: 500vw; /* Set a maximum width */
+max-height: 400vh;
+}
+
+.modal-header h1{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
 
 }
 
@@ -1824,6 +1835,26 @@ font-weight: 600;
 border-radius: 99px;
 cursor: pointer;
 }
+.modal-header h1{
+  padding-bottom: -0px;
+  margin-bottom: 0px;
+}
+.modal1, 
+.modal2,
+.modal3,
+.modal4,
+.modal5,
+.modal6,
+.modal7,
+.modal8 {
+width: 55%; /* Adjust width as desired */
+height: 40%; /* Adjust height as desired */
+max-width: 500vw; /* Set a maximum width */
+max-height: 40vh;
+
+}
+
+
 }
 
 @media (min-width: 940px) and (max-width: 1024px){
@@ -1911,11 +1942,11 @@ height: 5vh;
 .modal6,
 .modal7,
 .modal8 {
-width: 60%; /* Adjust width as desired */
-height: 85%; /* Adjust height as desired */
+width: 55%; /* Adjust width as desired */
+height: 50%; /* Adjust height as desired */
 max-width: 500vw; /* Set a maximum width */
-max-height: 40vh;
-position: fixed;
+max-height: 400vh;
+
 
 }
 
@@ -1923,11 +1954,12 @@ position: fixed;
 width: 100%; /* Adjust width as desired */
 height: 30%;
 max-width: 500vw; /* Set a maximum width */
-max-height: 40vh;
+max-height: 400vh;
 }
 
 .inside{
-  padding-top: 3vh;
+  padding-top: 2vh;
+  margin-top: 2vh;
 }
 
 .modal-header h1{
@@ -1993,6 +2025,7 @@ max-height: 40vh;
 
 .inside{
   padding-top: 2vh;
+  margin-top: 3vh;
 }
 
 .modal-header h1{
@@ -2028,7 +2061,7 @@ max-height: 40vh;
 .modal7,
 .modal8 {
 width: 60%; /* Adjust width as desired */
-height: 60%; /* Adjust height as desired */
+height: 30%; /* Adjust height as desired */
 max-width: 500vw; /* Set a maximum width */
 max-height: 40vh;
 position: fixed;
@@ -2043,7 +2076,8 @@ max-height: 40vh;
 }
 
 .inside{
-  padding-top: 3vh;
+  padding-top: 2vh;
+  margin-top: 2vh;
 }
 
 .modal-header h1{
