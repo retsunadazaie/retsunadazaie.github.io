@@ -389,6 +389,7 @@ section {
 .canossian-heart
 {
   font-size: 40px;
+  margin-bottom: 50px;
 }
 
 .smart-dot {
@@ -399,7 +400,7 @@ section {
 .meaning {
   display: none;
   font-size: 20px;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s;
   max-height: 0;
   overflow: hidden;
 
@@ -1249,3 +1250,11 @@ footer{
 /*          */
 /*          */
 /*          */
+
+@media (min-width:1px) and (max-width:1200px)
+{
+  .container
+  {
+    display: none;
+  }
+}

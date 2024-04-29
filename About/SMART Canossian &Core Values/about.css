@@ -5,6 +5,7 @@
   font-family: MontserratSemiBold;
   src: url(fonts/MontserratSemiBold.otf);
 }
+
 @font-face {
   font-family: MontserratSemiBoldItalic;
   src: url(fonts/MontserratSemiBoldItalic.otf);
@@ -493,6 +494,15 @@ header .navigation .navigation-items a:hover:before {
       color: #FFF;
     }
 
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+
+    
     .heading-3--light {
       color: #848995;
       font-size: 21px;
