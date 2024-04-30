@@ -280,14 +280,29 @@ img {
   animation: fade-up 2s; /* Animation */
 }
 
-.apply-button, .readmore-button {
-  border-radius: 20px;
+.apply-button{
+  border-radius: 2px;
   border: none;
   width: 150px;
   padding: .7rem .7rem;
   font-weight: 600;
   background: #006fd7;
   color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 10px; /* Add margin between buttons */
+}
+
+.readmore-button {
+  border-radius: 2px;
+  border: none;
+  width: 150px;
+  padding: .7rem .7rem;
+  font-weight: 600;
+  background: #ffffff;
+  color: #006FD7;
   font-size: 15px;
   cursor: pointer;
   transition: 0.5s;
@@ -367,53 +382,6 @@ img {
 
 /* -------------------------------------------------------------------------------------------- */
 
-#scholarship-grid
-{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr auto;
-  padding-left: 100px;
-  padding-right: 100px;
-  gap: 15px;
-  padding-bottom: 40px;
-}
-
-.grid-title
-{
-  font-size: 20px;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  color: #006FD7;
-}
-
-.grid-1, .grid-2, .grid-3
-{
-  border-radius: 20px;
-  background-color: #d0cccc;
-  padding-bottom: 60px;
-}
-
-.list-explain
-{
-  padding-left: 25px;
-  padding-right: 20px;
-  font-size: 14px;
-}
-
-.grid-ul
-{
-  list-style: inside;
-  text-align: justify;
-  padding-left: 10px;
-  padding-right: 30px;
-}
-
-.grid-ul li
-{
-  padding-bottom: 5px;
-  font-size: 17px;
-  text-align: left;
-}
 
 
 
@@ -441,10 +409,7 @@ img {
 
 
 
-
-
-
-
+/* -------------------------------------------------------------------------------------------- */
 .secondsection{
     display: flex;
     justify-content: center;

@@ -259,11 +259,11 @@ section {
     align-items: center;
     justify-content: center;
     min-height: 70VH;
-    background-image: url('/resources/Images/finalback.png');
+    background-image: url('/resources/Images/contactsbg.png');
     background-size: cover; /* Adjust background size as needed */
     background-position: right; /* Centers the background image within the element */
-   
 }
+
 
 .grid2{
     display: flex;
@@ -310,16 +310,10 @@ section {
   color: #fff;
   font-size: 50px;
   text-align: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Adjust the values as needed */
   animation: fade-up 1.5s;
 }
 
-.container .head1 {
-  text-shadow: -1.8px -1.8px 0 #006FD7,  
-               1.8px -1.8px 0 #006FD7,
-               -1.8px 1.8px 0 #006FD7,
-               1.8px 1.8px 0 #006FD7;
-}
 
 .container-card {
   position: relative;
@@ -347,7 +341,7 @@ section {
   height: 190px;
   background-color: white;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 15px;
   font-size: 20px;
   font-weight: 700;
   display: flex;
@@ -472,7 +466,7 @@ section {
   text-align: center;
   justify-content: center;
   align-items: center;
-  border-radius: 25px;
+  border-radius: 15px;
   cursor: pointer;
   transition: 0.5s;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
@@ -549,7 +543,7 @@ section {
 }
 
 .grid2 .buttons-content {
-  border-radius: 25px;
+  border-radius: 15px;
   border: none;
   width: 200px;
   padding: 1rem 1rem;

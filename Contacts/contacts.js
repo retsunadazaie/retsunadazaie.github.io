@@ -46,3 +46,4 @@ function scrollFunction() {
         document.querySelector("header").classList.remove("sticky");
     }
 }
+

@@ -61,10 +61,18 @@ document.getElementById("readmore_button").onclick = function() {
 };
   
 
-  
-// eto ay js ng button to top pls
-// Get the button element
+ // // Get the button element
 const buttonTop = document.getElementById('buttontop');
+
+// Function to show the button
+function showButton() {
+  buttonTop.classList.remove('hidden');
+}
+
+// Function to hide the button
+function hideButton() {
+  buttonTop.classList.add('hidden');
+}
 
 // Add a click event listener to the button
 buttonTop.addEventListener('click', () => {
@@ -75,15 +83,17 @@ buttonTop.addEventListener('click', () => {
   });
 
   // Hide the button by adding the 'hidden' class
-  buttonTop.classList.add('hidden');
+  hideButton();
 });
 
-// Show the button when the user scrolls
+// Show the button when the user scrolls beyond 2000 pixels from the top
 window.addEventListener('scroll', () => {
-  // If the user scrolls beyond 100 pixels from the top, show the button
   if (window.scrollY > 700) {
-    buttonTop.classList.remove('hidden');
+    showButton();
   } else {
-    buttonTop.classList.add('hidden');
+    hideButton();
   }
 });
+
+// Hide the button initially when the page loads
+hideButton();

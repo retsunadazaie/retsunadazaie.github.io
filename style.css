@@ -390,6 +390,19 @@ section {
 {
   font-size: 40px;
   margin-bottom: 50px;
+  transition: 0.5s;
+}
+
+.canossian-heart span
+{
+  font-size: 40px;
+  margin-bottom: 50px;
+  transition: 0.5s;
+}
+
+.canossian-heart span:hover {
+  color: #fc2f2f;
+  z-index: 1;
 }
 
 .smart-dot {
@@ -1048,13 +1061,7 @@ footer{
     font-size: 2.5rem;
     font-weight: 600;
   }
-  
-
-
 }
-
-
-
 @media (min-width: 350px) and (max-width:480px)
 {
 
@@ -1072,17 +1079,11 @@ footer{
   {
     font-size: 2.5rem;
   }
-
   .home .content h1 span {
     font-size: 2.5rem;
     font-weight: 600;
   }
-  
-  
-
-
 }
-
 /* Section Seperation */
 /* Section Seperation */
 /* Section Seperation */
@@ -1091,25 +1092,16 @@ footer{
 
 @media (min-width:481px) and (max-width: 560px) 
 {
- 
 
 }
-
 /* Section Seperation */
 /* Section Seperation */
 /* Section Seperation */
 /* Section Seperation */
 /* Section Seperation */
-
-
 @media (min-width:561px) and (max-width: 768px) 
 {
-
-
-
-
 }
-
 /* Section Seperation */
 /* Section Seperation */
 /* Section Seperation */
@@ -1118,11 +1110,7 @@ footer{
 
 @media (min-width:769px) and (max-width: 1024px) 
 {
-
-
-
 }
-
 /* Section Seperation */
 /* Section Seperation */
 /* Section Seperation */
@@ -1131,39 +1119,22 @@ footer{
 
 @media (min-width:1025px) and (max-width: 1366px) 
 {
-
-
-
 }
-
-
-
-
-
 /* Section Seperation */
 /* Section Seperation */
 /* Section Seperation */
 /* Section Seperation */
 /* Section Seperation */
-
-
-
-
-
 
 /* For SMART CONTAINER*/
 
 @media screen and (max-width: 1200px) 
 {
-
   .smart-section
 {
   padding: 0px 0px;
 }
-
 }
-
-
 /* button to top na mabangis */
 .buttontop {
   width: 50px;
@@ -1182,24 +1153,18 @@ footer{
   position: fixed; /* Change this to fixed */
   bottom: 20px; /* Adjust the bottom position */
   right: 20px; /* Positioning it to the right */
-}
 
+}
 .svgIcon {
   width: 12px;
   transition-duration: 0.3s;
 }
-
 .svgIcon path {
   fill: white;
 }
-
-
 .hidden {
   display: none;
 }
-
-
-
 @media (max-width:1200px) 
 {
   .smart-section
@@ -1235,8 +1200,6 @@ footer{
     font-family: MontserratRegular;
   }
 }
-
-
 @media (min-width: 1201px) and (max-width: 4000px)
 {
   .mobile-smart-section

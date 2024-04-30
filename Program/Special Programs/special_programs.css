@@ -304,7 +304,7 @@ img {
   }
 
   .readmore-button {
-    border-radius: 20px;
+    border-radius: 2px;
     border: none;
     width: 150px;
     padding: .7rem .7rem;
@@ -511,7 +511,6 @@ img {
 }
 
 .panel {
-  border-left: 1px solid #6db5ff;
   margin-left: 155px;
   font-size: 14px;
   text-align: justify;
@@ -550,6 +549,7 @@ img {
   width: 85%;
   padding-left: 90px;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .li-academic li {

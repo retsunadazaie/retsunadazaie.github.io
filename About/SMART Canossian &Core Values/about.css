@@ -43,6 +43,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+.fourthsection {
+  padding-top: 10vh;
+}
+
 header {
   z-index: 999;
   position: fixed; /* Change position to fixed */
@@ -326,7 +330,7 @@ header .navigation .navigation-items a:hover:before {
 }
 
 .button1 {
-  border-radius: 20px;
+  border-radius: 2px;
   border: none;
   width: 150px;
   padding: .7rem .7rem;
@@ -381,6 +385,8 @@ header .navigation .navigation-items a:hover:before {
           justify-content: center;
           align-items: center;
           font-size: 22px !important;
+          padding-left: 10px;
+          padding-right: 10px;
       }
   
 
@@ -416,7 +422,7 @@ header .navigation .navigation-items a:hover:before {
     }
   .canus{
     font-style: italic;
-    font-size: 9px;
+    font-size: 14px;
     text-align: center;
     padding-top: 90px;
   }
@@ -561,7 +567,7 @@ header .navigation .navigation-items a:hover:before {
     text-align: center;
     color: #006FD7; /* Adjust color as needed */
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    margin-top: 60px;
+    
   }
   /* core values */
 /* plssssssssssssssssssssss */
@@ -600,7 +606,7 @@ header .navigation .navigation-items a:hover:before {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+  box-shadow: 0px 0px 0px 4px rgba(160, 233, 255, 0.801);
   cursor: pointer;
   transition-duration: 0.3s;
   overflow: hidden;
@@ -770,8 +776,6 @@ footer{
 .thirdsection-a .pascu{
   width: 225px;
   height: 75px;
-  margin-left: -7%;
-  margin-top: 3%;
 }
 
 .copyRightText p {
@@ -817,7 +821,8 @@ footer{
 #testimonials {
   background-color: #006FD7;
   text-align: center;
-  width: 70%;
+  width: 50%;
+  height: 50%;
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -859,7 +864,7 @@ background-color: white;
 color: #004281;
 font-size: 18px;
 font-weight: 600;
-border-radius: 99px;
+border-radius: 3px;
 cursor: pointer;
 }
 #pricing {
@@ -912,6 +917,7 @@ transform: translate(-50%, -50%);
 text-align: center;
 justify-content: center;
 text-align: justify;
+border-radius: 8px;
 }
 .inside{
   margin: 40px 20px 10px 20px;
@@ -941,6 +947,14 @@ text-align: justify;
 
 /* mediaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
 @media (max-width: 320px) {
+ 
+  .fourthsection {
+    padding-top: 2vh;
+  }
+
+  .testimonials{
+    width: 100%;
+  }
   .image-overlay{
     font-size: 80%;
     justify-content: center;
@@ -1059,7 +1073,7 @@ background-color: white;
 color: #004281;
 font-size: 10px;
 font-weight: 600;
-border-radius: 99px;
+border-radius: 3px;
 cursor: pointer;
 }
 
@@ -1081,6 +1095,10 @@ cursor: pointer;
 
 @media (min-width: 321px) and (max-width: 480px) {
   
+
+  .fourthsection {
+    padding-top: 2vh;
+  }
   .image-overlay{
     font-size: 80%;
     justify-content: center;
@@ -1135,7 +1153,7 @@ cursor: pointer;
   height: 5rem;
   border-radius: 20px 20px 20px 20px;
   justify-content: left;
-  width: 68vw;
+  width: 71vw;
 }
 .container p {
   font-size: 20px;
@@ -1207,7 +1225,7 @@ background-color: white;
 color: #004281;
 font-size: 10px;
 font-weight: 600;
-border-radius: 99px;
+border-radius: 3px;
 cursor: pointer;
 }
 
@@ -1263,6 +1281,9 @@ position: fixed;
 
 @media (min-width: 481px) and (max-width: 560px) {
 
+  .fourthsection {
+    padding-top: 2vh;
+  }
   .image-overlay{
     font-size: 80%;
     justify-content: center;
@@ -1386,7 +1407,7 @@ background-color: white;
 color: #004281;
 font-size: 10px;
 font-weight: 600;
-border-radius: 99px;
+border-radius: 3px;
 cursor: pointer;
 }
 
@@ -1396,6 +1417,12 @@ cursor: pointer;
 
 @media (min-width: 561px) and (max-width: 663px){
 
+
+
+
+  .fourthsection {
+    padding-top: 2vh;
+  }
   .image-overlay{
     font-size: 80%;
     justify-content: center;
@@ -1519,7 +1546,7 @@ background-color: white;
 color: #004281;
 font-size: 10px;
 font-weight: 600;
-border-radius: 99px;
+border-radius: 3px;
 cursor: pointer;
 }
 
@@ -1538,7 +1565,9 @@ max-height: 400vh;
 }
 
 @media (min-width: 664px) and (max-width: 768px){
-
+  .fourthsection {
+    padding-top: 2vh;
+  }
 
 
   .image-overlay{
@@ -1687,13 +1716,15 @@ background-color: white;
 color: #004281;
 font-size: 10px;
 font-weight: 600;
-border-radius: 99px;
+border-radius: 3px;
 cursor: pointer;
 }
 }
 
 @media (min-width: 769px) and (max-width: 939px){
-
+  .fourthsection {
+    padding-top: 2vh;
+  }
 
   .image-overlay{
     font-size: 80%;
@@ -1832,7 +1863,7 @@ background-color: white;
 color: #004281;
 font-size: 10px;
 font-weight: 600;
-border-radius: 99px;
+border-radius: 3px;
 cursor: pointer;
 }
 .modal-header h1{
@@ -1865,7 +1896,7 @@ max-height: 40vh;
     width: 60vw;
   }
 .flip-card{
-  width: 65vw;
+  width: 60vw;
 }
 .open-button,
 .open-button2,
@@ -1883,7 +1914,7 @@ background-color: white;
 color: #004281;
 font-size: 10px;
 font-weight: 600;
-border-radius: 99px;
+border-radius: 3px;
 cursor: pointer;
 }
 
@@ -1921,7 +1952,7 @@ background-color: white;
 color: #004281;
 font-size: 14px;
 font-weight: 600;
-border-radius: 99px;
+border-radius: 3px;
 cursor: pointer;
 height: 5vh;
 }
@@ -1929,6 +1960,9 @@ height: 5vh;
   border-radius: 0px 20px 20px 0px;
   justify-content: left;
   width: 49vw;
+}
+.flip-card{
+  width: 53vw;
 }
 .modal-header h1 {
   font-size: 30px;
@@ -1952,7 +1986,7 @@ max-height: 400vh;
 
 .modal-header{
 width: 100%; /* Adjust width as desired */
-height: 30%;
+height: 25%;
 max-width: 500vw; /* Set a maximum width */
 max-height: 400vh;
 }
@@ -2037,7 +2071,6 @@ max-height: 40vh;
 
 
 
-
 }
 @media (min-width: 1601px) and (max-width: 1920px){
 .testinonials{
@@ -2046,7 +2079,7 @@ max-height: 40vh;
 .flip-card-front {
   border-radius: 0px 20px 20px 0px;
   justify-content: left;
-  width: 36vw;
+  width: 34vw;
 }
 .meaning1{
   font-size: 23px;
