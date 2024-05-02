@@ -738,6 +738,12 @@ footer{
   height: 25px;
 }
 
+.thirdsection-a .info li p
+{
+  margin-bottom: 0 !important;
+
+}
+
 .thirdsection-a .info li p a{
   margin: 0; 
   font-size: 13px;
@@ -745,6 +751,7 @@ footer{
   color: #fff;
   font-weight: 300;
   margin-left: 5px;
+  
 }
 
 .thirdsection-a .pascu{
@@ -1223,7 +1230,7 @@ position: fixed;
   .button1{
     font-size: 70%;
     width: 30%;
-    height: 6vh;
+    height: 4vh;
     font-weight: 300;
     transition: 0.2;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1355,8 +1362,8 @@ cursor: pointer;
   }
   .button1{
     font-size: 70%;
-    width: 40%;
-    height: 4vh;
+    width: 30%;
+    height: 5vh;
     font-weight: 300;
     transition: 0.2;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
