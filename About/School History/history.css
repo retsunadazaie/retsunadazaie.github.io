@@ -492,6 +492,16 @@ body {
 
 }  
 
+
+@media (min-width:320px) and (max-width:360px)
+{
+  .logo img 
+  {
+    width: 230px;
+    height: 55px;
+  }
+}
+
   .timeline__title {
     margin: 0;
     font-size: 1.15em;

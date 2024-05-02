@@ -57,6 +57,15 @@ header{
   z-index: 1000;
 }
 
+@media (min-width:320px) and (max-width:360px)
+{
+  .logo img 
+  {
+    width: 230px;
+    height: 55px;
+  }
+}
+
 header.sticky {
   background-color: #006fd7; /* Background color on scroll */
   transition: .5s;

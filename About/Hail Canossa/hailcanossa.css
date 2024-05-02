@@ -175,6 +175,16 @@ header .navbar ul li ul{
   }
 }
 
+
+@media (min-width:320px) and (max-width:360px)
+{
+  .logo img 
+  {
+    width: 230px;
+    height: 55px;
+  }
+}
+
 /* ----------------------------------------------------------------------- */
 
 /* Base styles */

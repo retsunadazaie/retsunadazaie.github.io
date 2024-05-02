@@ -1,6 +1,6 @@
 //Navigation Bar 
 const menuBtn = document.querySelector(".menu-btn");
-const navigation = document.querySelector(".navbar");
+const navigation = document.querySelector(".navigation");
 
 menuBtn.addEventListener("click", () => {
     menuBtn.classList.toggle("active");

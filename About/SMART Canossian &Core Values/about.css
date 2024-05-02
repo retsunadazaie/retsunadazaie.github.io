@@ -403,6 +403,17 @@ header .navbar ul li ul{
   display: flex;
   justify-content: center;
 }
+
+@media (min-width:320px) and (max-width:360px)
+{
+  .logo img 
+  {
+    width: 230px;
+    height: 55px;
+  }
+}
+
+
 .flip-card {
  display: flex;
   background-color: transparent;
