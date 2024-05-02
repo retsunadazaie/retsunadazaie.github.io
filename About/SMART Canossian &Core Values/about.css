@@ -5,10 +5,12 @@
   font-family: MontserratSemiBold;
   src: url(fonts/MontserratSemiBold.otf);
 }
+
 @font-face {
   font-family: MontserratSemiBoldItalic;
   src: url(fonts/MontserratSemiBoldItalic.otf);
 }
+
 @font-face {
   font-family: HaboroSansNormRegular;
   src: url(fonts/HaboroSansNormRegular.otf);
@@ -28,7 +30,6 @@
   font-family: MontserratRegular;
   src: url(fonts/MontserratRegular.otf);
 }
-
 * {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
@@ -47,115 +48,77 @@
   padding-top: 10vh;
 }
 
-header {
-  z-index: 999;
-  position: fixed; /* Change position to fixed */
+header{
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  right: 0;
+  background: #006FD7;
+  box-shadow: 0 5px rgba (0,0,0,.1);
+  padding: 10px 150px 10px 150px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 15px 150px 13px 150px;
-  background-color: #006fd7; /* Initial background color */
-  transition: background-color 0.5s ease; /* Transition for background color */
+  justify-content: space-between;
+  z-index: 1000;
 }
 
 header.sticky {
   background-color: #006fd7; /* Background color on scroll */
+  transition: .5s;
 }
 
-header .brand {
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-transform: uppercase;
+header .navbar ul{
+  list-style: none;
+}
+
+header .navbar ul li{
+  position: relative;
+  float: left;
+  list-style: none;
+}
+
+header .navbar ul li a{
+  font-size: 15px;
+  padding: 18px;
+  color: white;
+  display: block;
   text-decoration: none;
-}
-
-/*header .brand:hover {
-  color: #006fd7;
-}*/
-
-header .navigation {
-  position: relative;
-}
-
-header .navigation .navigation-items a {
-  position: relative;
-  color: #fff;
-  font-size: 1em;
   font-weight: 500;
-  text-decoration: none;
-  margin-left: 30px;
-  transition: 0.3s ease;
 }
 
-header .navigation .navigation-items a:before {
-  content: "";
+header .navbar ul li a:hover{
+  background-color: #ffffff;
+  color: #006fd7;
+}
+
+header .navbar ul li ul{
   position: absolute;
-  background: #fff;
-  width: 0;
-  height: 3px;
-  bottom: 0;
   left: 0;
-  transition: 0.3s ease;
+  width: 350px;
+  background: #ffffff;
+  display: none;
+  border-radius: 2px;
 }
 
-header .navigation .navigation-items a:hover:before {
+header .navbar ul li ul a{
+  color: #006fd7;
+  font-weight: 500;
+}
+
+header .navbar ul li ul a:hover{
+  background-color: #006fd7;
+  color: #ffffff;
+}
+
+header .navbar ul li ul li{
   width: 100%;
-  background: #006fd7;
 }
 
-/* Dropdown styles */
-.dropdown-p {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-p .dropdown-content-1 {
-  display: none;
-  position: absolute;
-  background-color: #fff;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 999;
-  min-width: 350px;
-  border-radius: 5px;
-  margin-left: -100%; /*added*/
-}
-
-.dropdown-p .dropdown-content-2 {
-  display: none;
-  position: absolute;
-  background-color: #fff;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 999;
-  min-width: 350px;
-  border-radius: 5px;
-  margin-left: -71%; /*added*/
+header .navbar ul li:hover > ul{
+  display: initial;
 }
 
 
-/* Increased specificity for font color */
-.navigation .dropdown-content-1 a,
-.navigation .dropdown-content-2 a {
-  color: #006fd7 !important; /* Blue color */
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  transition: 10s ease;
-  margin-left: 0px !important;
-  text-align: center;
-}
-
-.navigation .dropdown-content-1 a:hover
-.navigation .dropdown-content-2 a:hover {
-  background-color: #f1f1f1;
-}
-.dropdown-p:hover .dropdown-content-1,
-.dropdown-p:hover .dropdown-content-2 {
-  display: block;
-}
 @keyframes fade-up {
   0% {
     opacity: 0;
@@ -173,88 +136,63 @@ header .navigation .navigation-items a:hover:before {
   text-align: center;
 }
 
-@media (max-width: 1040px) {
-    header {
-      padding: 12px 20px;
-    }
+@media (max-width: 1150px) {
 
-  
-    header .navigation {
-      display: none;
-    }
-  
-    header .navigation.active {
-      position: fixed;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: rgba(1, 1, 1, 0.5);
-    }
-  
-    header .navigation .navigation-items a {
-      color: #222;
-      font-size: 1.2em;
-      margin: 20px;
-    }
-  
-    header .navigation .navigation-items a:before {
-      background: #222;
-      height: 5px;
-    }
-    header .navigation.active .navigation-items {
-      background: #fff;
-      width: 600px;
-      max-width: 600px;
-      margin: 20px;
-      padding: 40px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      border-radius: 5px;
-      box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
-    }
-  
-    .menu-btn {
-      background: url(/menu.png) no-repeat;
-      background-size: 30px;
-      background-position: center;
-      width: 40px;
-      height: 40px;
-      cursor: pointer;
-      transition: 0.3s ease;
-    }
-  
-    .menu-btn.active {
-      z-index: 999;
-      background: url(/close.png) no-repeat;
-      background-size: 25px;
-      background-position: center;
-      transition: 0.3s ease;
-    }
 
-    .dropdown-p{
-      margin:20px;
-    }
+  header{
+    padding: 20px;
+    background-color: #006FD7;
+}
+
+header .navbar {
+  background: white;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border-top: 1px solid black;
   }
 
-  @media (max-width: 330px) {
-  
-    .dropdown-content-1 {
-      min-width: 250px !important;
-      font-size: 12px;
-      margin-left: -55% !important; /*added*/
-    }
 
-    .dropdown-content-2{
-      min-width: 250px !important;
-      font-size: 12px;
-      margin-left: -35% !important; /*added*/
-    }
-  } 
+header .navbar ul li{
+    width: 100%;
+  }
+
+  header .navbar ul li a{
+    background: white;
+    color: #222;
+    font-size: 1.2em;
+    margin: 20px;
+}
+
+header .navbar ul li ul{
+    position: relative;
+    width: 100%;
+  }
+
+.menu-btn {
+    background: url(/menu.png) no-repeat;
+    background-size: 30px;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .menu-btn.active {
+    z-index: 999;
+    background: url(/close.png) no-repeat;
+    background-size: 25px;
+    background-position: center;
+    transition: 0.3s ease;
+  }
+
+  .menu-btn.active ~ .navbar {
+    display: initial;
+  }
+}
   /*-------------------------------------------------------------------------  */
 
   @keyframes slideInLeft{
@@ -347,7 +285,6 @@ header .navigation .navigation-items a:hover:before {
   transform: scale(1.1);
 }
 
-
   /* Media queries for responsive design */
 
   @media (max-width: 820px) {
@@ -388,8 +325,6 @@ header .navigation .navigation-items a:hover:before {
           padding-left: 10px;
           padding-right: 10px;
       }
-  
-
   }
 
   @media (max-width: 400px) {
@@ -403,7 +338,6 @@ header .navigation .navigation-items a:hover:before {
       font-size: 16px !important;
     }
   } 
-
 
 /* ============================= */
 
@@ -427,7 +361,7 @@ header .navigation .navigation-items a:hover:before {
     padding-top: 90px;
   }
   .secondsection{
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: column; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -440,7 +374,7 @@ header .navigation .navigation-items a:hover:before {
     margin-top: 30px;
     font-weight: bold;
     text-align: center;
-    color: #006FD7; /* Adjust color as needed */
+    color: #006FD7; 
   }
 
   /* Styles for the "Canossian with the heart" text */
@@ -543,7 +477,6 @@ header .navigation .navigation-items a:hover:before {
       'opsz' 24
       'color:' white !important;
     }
-
     
     .heading-3--light {
       color: #848995;
@@ -565,7 +498,7 @@ header .navigation .navigation-items a:hover:before {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    color: #006FD7; /* Adjust color as needed */
+    color: #006FD7;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     
   }
@@ -595,7 +528,8 @@ header .navigation .navigation-items a:hover:before {
     border-radius: 2px;
   }
 /* plssssssssssssssssssssss */
-/* button to top na mabangis */
+
+/* buttonto?*/
 .buttontop {
   width: 50px;
   height: 50px;
@@ -610,9 +544,9 @@ header .navigation .navigation-items a:hover:before {
   cursor: pointer;
   transition-duration: 0.3s;
   overflow: hidden;
-  position: fixed; /* Change this to fixed */
-  bottom: 20px; /* Adjust the bottom position */
-  right: 20px; /* Positioning it to the right */
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px;
 }
 .svgIcon {
   width: 12px;
@@ -625,7 +559,8 @@ header .navigation .navigation-items a:hover:before {
 .hidden {
   display: none;
 }
-/* button to top na mabangis */
+/* buttonto? */
+
 /* Footer Section */
 /*-------------------------------------------------------*/
 
@@ -672,14 +607,13 @@ footer{
       flex: 2;
       width: 100%;
       height: auto;
-      padding: 50px 30px 30px 30px; /* Adjust padding for smaller screens */
-      text-align: center; /* Center align content */
+      padding: 50px 30px 30px 30px; 
+      text-align: center;
   }
 
- 
   .thirdsection-a .info li {
-    font-size: 10px; /* Adjust font size for smaller screens */
-    text-align: center; /* Center align the text */
+    font-size: 10px; 
+    text-align: center; 
     align-items: center;
     justify-content: center;  
   }
@@ -696,16 +630,15 @@ footer{
 
 .firstsection-a ul {
   color: #fff;
-  list-style-type: none; /* Remove default bullet points */
-  padding: 20px 30px 30px 0px; /* Remove default padding */
+  list-style-type: none; 
+  padding: 20px 30px 30px 0px; 
   margin-left: 30px;
 }
 
 .firstsection-a ul li {
-  display: inline-block; /* Display list items in a row */
-  margin-right: 10px; /* Adjust spacing between list items */
+  display: inline-block; 
+  margin-right: 10px; 
 }
-
 
 .firstsection-a ul li img {
   width: 35px;
@@ -721,10 +654,8 @@ footer{
   transform: scale(1.2);
 }
 
-
-
 .secondsection-a ul{
-  list-style-type: none; /* Remove default bullet points */
+  list-style-type: none; 
 }
 
 .secondsection-a ul a {
@@ -744,19 +675,19 @@ footer{
 }
 
 .thirdsection-a .info {
-  list-style-type: none; /* Remove default bullet points */
+  list-style-type: none; 
   text-decoration: none;
 }
 
 .thirdsection-a .info li {
-  display: flex; /* Use flexbox to align items */
-  align-items: center; /* Align items vertically */
-  margin-bottom: 10px; /* Add margin between list items */
+  display: flex; 
+  align-items: center; 
+  margin-bottom: 10px; 
 
 }
 
 .thirdsection-a .info li span {
-  margin-right: 10px; /* Add space between image and text */
+  margin-right: 10px; 
 }
 
 .thirdsection-a .info li img {
@@ -765,7 +696,7 @@ footer{
 }
 
 .thirdsection-a .info li p a{
-  margin: 0; /* Remove default margin from paragraph */
+  margin: 0; 
   font-size: 13px;
   text-decoration: none;
   color: #fff;
@@ -801,20 +732,12 @@ footer{
 @media (max-width: 1000px) {
   .copyRightText {
     position: relative;
-    padding: 20px 0 30px; /* Adjust padding for smaller screens */
+    padding: 20px 0 30px;
     font-size: 10px;
   }
 }
 
-
-
-
-
-
-
-
-
-/* eto yung sa carousel preeeeeeeeeeeeeeeee!!!!!!!! */
+/* carousel real  */
 .button {
   background-color: #006FD7;
 }
@@ -906,9 +829,9 @@ cursor: pointer;
 .modal6,
 .modal7,
 .modal8 {
-width: 60%; /* Adjust width as desired */
-height: 60%; /* Adjust height as desired */
-max-width: 300vw; /* Set a maximum width */
+width: 60%; 
+height: 60%; 
+max-width: 300vw; 
 max-height: 400vw;
 position: fixed;
 top: 50%;
@@ -923,29 +846,9 @@ border-radius: 8px;
   margin: 40px 20px 10px 20px;
   font-size: 20px;
 }
-/* eto yung sa carousel preeeeeeeeeeeeeeeee!!!!!!!! */
+/* carousel real */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* mediaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+/* media queries na pahirap */
 @media (max-width: 320px) {
  
   .fourthsection {
@@ -1081,21 +984,9 @@ cursor: pointer;
   height: 25vh;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
+/* ========================================================== */
 @media (min-width: 321px) and (max-width: 480px) {
   
-
   .fourthsection {
     padding-top: 2vh;
   }
@@ -1146,8 +1037,6 @@ cursor: pointer;
   width: 45vw;
   height: 4vh;
   font-family: sans-serif;
- 
-
 }
 .flip-card-front {
   height: 5rem;
@@ -1240,9 +1129,9 @@ cursor: pointer;
 .modal6,
 .modal7,
 .modal8 {
-width: 80%; /* Adjust width as desired */
-height: 30%; /* Adjust height as desired */
-max-width: 500vw; /* Set a maximum width */
+width: 80%; 
+height: 30%; 
+max-width: 500vw; 
 max-height: 40vh;
 position: fixed;
 
@@ -1264,21 +1153,8 @@ position: fixed;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ======================================================== */
 @media (min-width: 481px) and (max-width: 560px) {
 
   .fourthsection {
@@ -1339,8 +1215,6 @@ position: fixed;
   border-radius: 20px 20px 20px 20px;
   justify-content: left;
   width: 68vw;
-  
-  
 }
 .container p {
   font-size: 20px;
@@ -1410,16 +1284,9 @@ font-weight: 600;
 border-radius: 3px;
 cursor: pointer;
 }
-
-
-
 }
-
+/* ==================================================== */
 @media (min-width: 561px) and (max-width: 663px){
-
-
-
-
   .fourthsection {
     padding-top: 2vh;
   }
@@ -1470,16 +1337,12 @@ cursor: pointer;
   width: 45vh;
   height: 4vh;
   font-family: sans-serif;
- 
-
 }
 .flip-card-front {
   height: 5rem;
   border-radius: 20px 20px 20px 20px;
   justify-content: left;
   width: 75vw;
-  
-  
 }
 .container p {
   font-size: 20px;
@@ -1551,9 +1414,9 @@ cursor: pointer;
 }
 
 .modal-header{
-width: 100%; /* Adjust width as desired */
+width: 100%; 
 height: 15%;
-max-width: 500vw; /* Set a maximum width */
+max-width: 500vw; 
 max-height: 400vh;
 }
 
@@ -1561,14 +1424,12 @@ max-height: 400vh;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-
 }
 
 @media (min-width: 664px) and (max-width: 768px){
   .fourthsection {
     padding-top: 2vh;
   }
-
 
   .image-overlay{
     font-size: 80%;
@@ -1626,8 +1487,6 @@ max-height: 400vh;
   width: 45vw;
   height: 4vh;
   font-family: sans-serif;
-
-
 }
 
 .button1{
@@ -1637,14 +1496,11 @@ max-height: 400vh;
   justify-content: center;
 }
 
-
 .flip-card-front {
   height: 5rem;
   border-radius: 0px 20px 20px 0px;
   justify-content: left;
   width: 60vw;
-  
-  
 }
 .container p {
   font-size: 25px;
@@ -1667,7 +1523,6 @@ max-height: 400vh;
   font-size: 12px;
   margin: 10px 10px 10px 0px;
   line-height: 15px !important;
-  
 }
 
 .canus{
@@ -1677,7 +1532,6 @@ max-height: 400vh;
   font-size: 12px;
   line-height: 15px;
   margin-bottom: 0px;
-  
 }
 .slider__item-text{
   font-size: 10px;
@@ -1720,7 +1574,7 @@ border-radius: 3px;
 cursor: pointer;
 }
 }
-
+/* =========================================================== */
 @media (min-width: 769px) and (max-width: 939px){
   .fourthsection {
     padding-top: 2vh;
@@ -1782,8 +1636,6 @@ cursor: pointer;
   width: 45vw;
   height: 4vh;
   font-family: sans-serif;
-
-
 }
 
 .button1{
@@ -1792,7 +1644,6 @@ cursor: pointer;
   height: 2rem;
   justify-content: center;
 }
-
 
 .flip-card-front {
   height: 5rem;
@@ -1878,14 +1729,11 @@ cursor: pointer;
 .modal6,
 .modal7,
 .modal8 {
-width: 55%; /* Adjust width as desired */
-height: 40%; /* Adjust height as desired */
-max-width: 500vw; /* Set a maximum width */
+width: 55%;
+height: 40%;
+max-width: 500vw; 
 max-height: 40vh;
-
 }
-
-
 }
 
 @media (min-width: 940px) and (max-width: 1024px){
@@ -1925,7 +1773,7 @@ cursor: pointer;
   font-size: 15px;
 }
 }
-
+/* =========================================================== */
 @media (min-width: 1025px) and (max-width: 1366px){
   .carousel-item h1{
     font-size: 20px;
@@ -1976,18 +1824,16 @@ height: 5vh;
 .modal6,
 .modal7,
 .modal8 {
-width: 55%; /* Adjust width as desired */
-height: 50%; /* Adjust height as desired */
-max-width: 500vw; /* Set a maximum width */
+width: 55%; 
+height: 50%;
+max-width: 500vw; 
 max-height: 400vh;
-
-
 }
 
 .modal-header{
-width: 100%; /* Adjust width as desired */
+width: 100%;
 height: 25%;
-max-width: 500vw; /* Set a maximum width */
+max-width: 500vw; 
 max-height: 400vh;
 }
 
@@ -2000,10 +1846,8 @@ max-height: 400vh;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-
-
 }
-
+/* =================================================== */
 @media (min-width: 1367px) and (max-width: 1600px){
   .carousel-item h1{
     font-size: 24px;
@@ -2042,18 +1886,17 @@ height: 5vh;
 .modal6,
 .modal7,
 .modal8 {
-width: 60%; /* Adjust width as desired */
-height: 30%; /* Adjust height as desired */
-max-width: 500vw; /* Set a maximum width */
+width: 60%; 
+height: 30%; 
+max-width: 500vw; 
 max-height: 40vh;
 position: fixed;
-
 }
 
 .modal-header{
-width: 100%; /* Adjust width as desired */
+width: 100%; 
 height: 30%;
-max-width: 500vw; /* Set a maximum width */
+max-width: 500vw; 
 max-height: 40vh;
 }
 
@@ -2066,12 +1909,8 @@ max-height: 40vh;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-
-
-
-
-
 }
+/* =========================================================== */
 @media (min-width: 1601px) and (max-width: 1920px){
 .testinonials{
   width: 10vw;
@@ -2093,18 +1932,17 @@ max-height: 40vh;
 .modal6,
 .modal7,
 .modal8 {
-width: 60%; /* Adjust width as desired */
-height: 30%; /* Adjust height as desired */
-max-width: 500vw; /* Set a maximum width */
+width: 60%;
+height: 30%; 
+max-width: 500vw; 
 max-height: 40vh;
 position: fixed;
-
 }
 
 .modal-header{
-width: 100%; /* Adjust width as desired */
+width: 100%; 
 height: 30%;
-max-width: 500vw; /* Set a maximum width */
+max-width: 500vw; 
 max-height: 40vh;
 }
 
@@ -2117,7 +1955,4 @@ max-height: 40vh;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-
-
-
 }
