@@ -1390,11 +1390,11 @@ footer{
 
 
 
-@media (min-width:320px) and (max-width:360px)
+@media (min-width:320px) and (max-width:370px)
 {
   .logo img 
   {
-    width: 230px;
-    height: 55px;
+    width: 255px;
+    height: 60px;
   }
 }

@@ -8,7 +8,10 @@
 
 
 
-
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(/fonts/Poppins-Bold.ttf);
+}
 @font-face {
   font-family: MontserratSemiBoldItalic;
   src: url(fonts/MontserratSemiBoldItalic.otf);
@@ -35,7 +38,7 @@
 }
 * {
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   margin: 0;
 }
@@ -101,9 +104,7 @@ header .navbar ul li a:before{
   transition: 0.3s ease;
 }
 
-.Clover{
-  font-family: "Montserrat", sans-serif !important; 
-}
+
 
 header .navbar ul li a:hover:before{
   width: 100%;
@@ -161,6 +162,13 @@ header .navbar ul li:hover > ul{
 .image-overlay{
   animation: fade-up 2s;
   text-align: center;
+  font-family: "Poppins", sans-serif !important;
+}
+.image-overlay p{
+  font-family: 'Poppins-Bold';
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 10);
+  font-size: 37.5px;
+  margin-bottom: 0;
 }
 
 @media (max-width: 1150px) {
@@ -295,7 +303,6 @@ header .navbar ul li ul{
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-size: 35px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 10);
   font-family: "Poppins", sans-serif !important;
 }
@@ -897,6 +904,10 @@ border-radius: 8px;
   .image-overlay{
     font-size: 80%;
     justify-content: center;
+    
+  }
+  .image-overlay p {
+    font-size: 18px;
   }
   .canus{
 
@@ -1026,6 +1037,9 @@ cursor: pointer;
   .fourthsection {
     padding-top: 2vh;
   }
+  .image-overlay p {
+    font-size: 19px;
+  }
   .image-overlay{
     font-size: 80%;
     justify-content: center;
@@ -1037,7 +1051,7 @@ cursor: pointer;
   .button1{
     font-size: 70%;
     width: 40%;
-    height:3rem;
+    height:2.10rem;
     font-weight: 300;
     transition: 0.2;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1193,6 +1207,9 @@ position: fixed;
 /* ======================================================== */
 @media (min-width: 481px) and (max-width: 560px) {
 
+  .image-overlay p {
+    font-size: 20px;
+  }
   .fourthsection {
     padding-top: 2vh;
   }
@@ -1201,13 +1218,12 @@ position: fixed;
     justify-content: center;
   }
   .canus{
-
     padding-top: 1px;
   }
   .button1{
     font-size: 70%;
-    width: 40%;
-    height: 4vh;
+    width: 30%;
+    height: 6vh;
     font-weight: 300;
     transition: 0.2;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1330,6 +1346,9 @@ cursor: pointer;
     font-size: 80%;
     justify-content: center;
   }
+  .image-overlay p {
+    font-size: 22px;
+  }
   .canus{
 
     padding-top: 1px;
@@ -1337,7 +1356,7 @@ cursor: pointer;
   .button1{
     font-size: 70%;
     width: 40%;
-    height: 5vh;
+    height: 4vh;
     font-weight: 300;
     transition: 0.2;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1465,6 +1484,9 @@ max-height: 400vh;
 @media (min-width: 664px) and (max-width: 768px){
   .fourthsection {
     padding-top: 2vh;
+  }
+  .image-overlay p {
+    font-size: 24px;
   }
 
   .image-overlay{
@@ -1993,11 +2015,11 @@ max-height: 40vh;
 }
 }
 
-@media (min-width:320px) and (max-width:360px)
+@media (min-width:320px) and (max-width:370px)
 {
   .logo img 
   {
-    width: 230px;
-    height: 55px;
+    width: 255px;
+    height: 60px;
   }
 }
