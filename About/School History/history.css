@@ -144,6 +144,8 @@ header .navbar {
     left: 0;
     right: 0;
     border-top: 1px solid black;
+    overflow-y: auto; /* Add overflow property */
+    max-height: calc(100vh - 100px); /* Set maximum height to fill remaining viewport */
   }
 
 
