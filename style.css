@@ -235,7 +235,19 @@ section {
   transition-property: clip-path;
 }
 
+.logo img
+{
+  height: 75px;
+}
 
+@media (min-width:320px) and (max-width:360px)
+{
+  .logo img 
+  {
+    width: 230px;
+    height: 55px;
+  }
+}
 
 @media (max-width: 1150px) {
   section {
