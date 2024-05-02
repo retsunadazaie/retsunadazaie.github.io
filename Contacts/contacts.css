@@ -31,14 +31,6 @@
 }
 
 
-@media (min-width:320px) and (max-width:360px)
-{
-  .logo img 
-  {
-    width: 230px;
-    height: 55px;
-  }
-}
 
 
 * {
@@ -86,16 +78,37 @@ header .navbar ul li{
 
 header .navbar ul li a{
   font-size: 15px;
-  padding: 18px;
+  margin-top: -10px;
+  padding: 18px 20px 3px;
   color: white;
   display: block;
   text-decoration: none;
   font-weight: 500;
 }
 
-header .navbar ul li a:hover{
-  background-color: #ffffff;
-  color: #006fd7;
+header .navbar ul li a:before{
+  content: '';
+  background: #fff;
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s ease;
+}
+
+header .navbar ul li a:hover:before{
+  width: 100%;
+  background: #006FD7;
+}
+
+header .navbar ul li ul li a{
+  font-size: 15px;
+  padding: 18px;
+  color: #006FD7;
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 header .navbar ul li ul{
@@ -113,13 +126,11 @@ header .navbar ul li ul a{
 }
 
 header .navbar ul li ul a:hover{
-  background-color: #006fd7;
-  color: #ffffff;
+  color: #006FD7;
 }
 
 header .navbar ul li ul li{
   width: 100%;
-
 }
 
 header .navbar ul li:hover > ul{
@@ -127,9 +138,6 @@ header .navbar ul li:hover > ul{
 }
 
 @media (max-width: 1150px) {
-  section {
-    padding: 100px 20px;
-  }
 
   header{
     padding: 20px;
@@ -158,6 +166,10 @@ header .navbar ul li{
     color: #222;
     font-size: 1.2em;
     margin: 20px;
+}
+
+header .navbar ul li ul li a{
+  font-size: 20px;
 }
 
 header .navbar ul li ul{
@@ -607,5 +619,15 @@ footer{
     position: relative;
     padding: 20px 0 30px; /* Adjust padding for smaller screens */
     font-size: 10px;
+  }
+}
+
+
+@media (min-width:320px) and (max-width:360px)
+{
+  .logo img 
+  {
+    width: 230px;
+    height: 55px;
   }
 }
