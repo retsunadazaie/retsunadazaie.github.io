@@ -898,9 +898,9 @@ cursor: pointer;
 .modal6,
 .modal7,
 .modal8 {
-width: 60%; 
+width: auto; 
 height: 60%; 
-max-width: 300vw; 
+
 max-height: 400vw;
 position: fixed;
 top: 25%;

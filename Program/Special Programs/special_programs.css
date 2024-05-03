@@ -376,7 +376,6 @@ header .navbar ul li ul{
 .vision-goal-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 15px;
   padding-bottom: 20px;
   width: 80%;
   margin: auto;
@@ -386,8 +385,6 @@ header .navbar ul li ul{
 .goal-container {
   margin-top: 59px;
   padding: 10px;
-  width: 500px;
-  height: 200px;
   margin: auto;
 }
 
@@ -404,7 +401,7 @@ header .navbar ul li ul{
 .p-vision,
 .p-goal {
   font-size: 20px ;
-  text-align: justify;
+  text-align: center;
 }
 
 /* Accordion */
@@ -1062,12 +1059,53 @@ header .navbar ul li ul{
 @media (min-width:1600px) and (max-width:1920px)
 {
 
-  .vision-goal-container
+
+  .accordion
   {
     width: 50%;
+  }
+
+  .li-academic
+  {
+    padding-left: 450px;
+  }
+
+  .highschool-title
+  {
+    padding-left: 450px;
+  }
+
+  .panel h2 
+  {
+    padding-left: 450px;
+  }
+
+  .section-description-ul
+  {
+    padding-left: 450px;
+  }
+
+  .section-description-p
+  {
+    padding-left: 450px;
+    padding-right: 550px;
+  }
+
+  .club-ul, .club-ul1
+  {
+    padding-left: 450px;
+  }
+
+  .vision-goal-container
+  {
+    width: 53%;
     margin: auto;
   }
 
+  .p-vision
+  {
+    height: 50%;
+  }
   .special-programs-container
   {
     width: 55%;
@@ -1100,7 +1138,7 @@ header .navbar ul li ul{
   {
     font-size: 1.1rem;
     text-align: center;
-    width: 60%;
+    width: 72.5%;
     margin: auto;
   }
 
