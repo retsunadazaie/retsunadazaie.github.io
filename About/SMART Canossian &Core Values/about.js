@@ -1,29 +1,18 @@
 
 //MODAL1
-const modal = document.getElementById('modal1');
-const openModal = document.getElementById('open-button');
+const modal1 = document.getElementById('modal1');
+const openModal1 = document.getElementById('open-button');
 const closeModal = document.getElementById('close');
 
-openModal.addEventListener('click', () => {
-  modal.showModal();
+openModal1.addEventListener('click', () => {
+  modal1.showModal();
   adjustModalSize();
 });
 
 closeModal.addEventListener('click', function() {
-  modal.close();
+  modal1.close();
 });
 
-function adjustModalSize() {
-  const modalHeader = document.querySelector('.modal-header');
-  const insideContent = document.querySelector('.inside');
-
-  const modalWidth = Math.max(modalHeader.offsetWidth, insideContent.offsetWidth);
-  const modalHeight = modalHeader.offsetHeight + insideContent.offsetHeight;
-
-  // Set modal width and height based on header and inside content
-  modal.style.width = `${modalWidth}px`;
-  modal.style.height = `${modalHeight}px`;
-}
 
 
 
@@ -216,6 +205,18 @@ function adjustModalSize(modal) {
   modal.style.width = `${modalWidth}px`;
   modal.style.height = `${modalHeight}px`;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 //---------------------------------------
 //---------------------------------------
