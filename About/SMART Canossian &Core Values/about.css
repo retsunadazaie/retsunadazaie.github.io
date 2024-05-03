@@ -200,7 +200,7 @@ header .navbar ul li{
     background: white;
     color: #222;
     font-size: 1.2em;
-    margin: 20px;
+    margin: 20px 20px 20px 0;
     left: 0 !important;
     padding-left: 0 !important;
 }
@@ -1900,7 +1900,23 @@ cursor: pointer;
 .carousel-item h2{
   font-size: 15px;
 }
+.modal1, 
+.modal2,
+.modal3,
+.modal4,
+.modal5,
+.modal6,
+.modal7,
+.modal8 {
+width: 55%; 
+height: 40%;
+max-width: 500vw; 
+max-height: 400vh;
 }
+}
+
+
+
 /* =========================================================== */
 @media (min-width: 1025px) and (max-width: 1366px){
   .carousel-item h1{
