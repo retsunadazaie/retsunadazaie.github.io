@@ -76,9 +76,44 @@ button2.addEventListener("click", function() {
   window.location.href = "https://canossaacademylipasis.orangeapps.ph/canossaacademylipa/";
 });
 
-//DROPDOWN
+// //DROPDOWN
+// const dropdown = document.querySelector('.dropdown');
+
+// dropdown.addEventListener('click', () =>{
+//   dropdown.classList.toggle('active');
+// });
+
+
+
+// const dropdown = document.querySelector('.dropdown');
+// let timeoutId;
+
+// dropdown.addEventListener('mouseenter', () => {
+//     clearTimeout(timeoutId); // Clear any previously set timeout
+//     dropdown.classList.add('active');
+// });
+
+// dropdown.addEventListener('mouseleave', () => {
+//     timeoutId = setTimeout(() => {
+//         dropdown.classList.remove('active');
+//     }, 300); // Adjust the delay as needed (in milliseconds)
+// });
+
+// // Adding event listeners for the dropdown menu items to clear the timeout
+// const dropdownItems = document.querySelectorAll('.dropdown .items a');
+
+// dropdownItems.forEach(item => {
+//     item.addEventListener('mouseenter', () => {
+//         clearTimeout(timeoutId); // Clear any previously set timeout
+//     });
+// });
+
 const dropdown = document.querySelector('.dropdown');
 
-dropdown.addEventListener('click', () =>{
-  dropdown.classList.toggle('active');
+dropdown.addEventListener('mouseenter', () =>{
+  dropdown.classList.add('active');
+});
+
+dropdown.addEventListener('mouseleave', () =>{
+  dropdown.classList.remove('active');
 });

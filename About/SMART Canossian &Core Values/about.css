@@ -779,6 +779,7 @@ footer{
   padding: 20px 100px 30px;
   text-align: center;
   border-top: .5px solid #414040;
+  margin-bottom: 0 !important;
 }
 
 .copyRightText p a{
@@ -1315,6 +1316,7 @@ left: 10%;
   .heart{
     letter-spacing: 0.5px;
     font-size: 3.5vh;
+    margin-bottom: 20px;
 }
 .meaning1{
   font-size: 12px;
@@ -1345,6 +1347,7 @@ left: 10%;
 .container-wrapper{
   justify-content: center;
   margin-bottom: 60px;
+
 }
 .cores{
   font-size: 7.5vw;
@@ -1405,8 +1408,16 @@ border-radius: 3px;
 cursor: pointer;
 }
 }
+
+
+
 /* ==================================================== */
 @media (min-width: 561px) and (max-width: 663px){
+
+  .thirdsection{
+    height: 33rem;
+  }
+ 
   .fourthsection {
     padding-top: 2vh;
   }
@@ -1448,6 +1459,7 @@ cursor: pointer;
   .heart{
     letter-spacing: 0.5px;
     font-size: 3.5vh;
+    margin-bottom: 18px;
 }
 .meaning1{
   font-size: 12px;
@@ -1601,6 +1613,7 @@ max-height: 400vh;
   .heart{
     letter-spacing: 0.5px;
     font-size: 3.5vh;
+    margin-bottom: 20px;
 }
 .meaning1{
   font-size: 15px;
@@ -1680,6 +1693,8 @@ max-height: 400vh;
   font-size: 13px;
 }
 
+
+
 .open-button,
 .open-button2,
 .open-button3,
@@ -1700,12 +1715,30 @@ border-radius: 3px;
 cursor: pointer;
 }
 }
+
+@media (min-width: 669px) and (max-width: 764px){
+  .heart{
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 775px) and (max-width: 910px){
+  .heart{
+    margin-bottom: 15px;
+  }
+}
+
 /* =========================================================== */
 @media (min-width: 769px) and (max-width: 939px){
   .fourthsection {
     padding-top: 2vh;
   }
 
+
+  .copyRightText p {
+    margin-bottom: 0 !important;
+    
+  }
   .image-overlay{
     font-size: 80%;
     justify-content: center;
@@ -1750,6 +1783,7 @@ cursor: pointer;
   .heart{
     letter-spacing: 0.5px;
     font-size: 3.5vh;
+    margin-bottom: 20px;
 }
 .meaning1{
   font-size: 15px;
@@ -1767,7 +1801,7 @@ cursor: pointer;
 .button1{
   font-size: 80%;
   width: 20%;
-  height: 2rem;
+  height: 3rem;
   justify-content: center;
 }
 
@@ -1801,6 +1835,10 @@ cursor: pointer;
 }
 .canus{
   display: none;
+}
+
+.thirdsection{
+  height: 30rem;
 }
 .heading-2{
   font-size: 12px;

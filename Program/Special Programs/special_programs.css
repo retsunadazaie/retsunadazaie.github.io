@@ -369,7 +369,6 @@ header .navbar ul li ul{
 .general-p {
   padding-left: 140px;
   padding-right: 130px;
-  text-align: justify;
   font-size: 20px ;
 }
 
@@ -1057,9 +1056,19 @@ header .navbar ul li ul{
 /*            */
 
 
-@media (min-width:1201px) and (max-width:1920px)
+@media (min-width:1600px) and (max-width:1920px)
 {
 
+  .vision-goal-container
+  {
+    width: 50%;
+    margin: auto;
+  }
+
+  .special-programs-container
+  {
+    width: 55%;
+  }
   .image-overlay h2
   {
     font-size: 3.2vw;
@@ -1080,7 +1089,7 @@ header .navbar ul li ul{
 
   #special-programs h1
   {
-    font-size: 2.604vw;
+    font-size: 2.1vw;
     padding-bottom: 20px;
   }
 
@@ -1088,8 +1097,8 @@ header .navbar ul li ul{
   {
     font-size: 1.1rem;
     text-align: center;
-    padding-left: 150px;
-    padding-right: 150px;
+    width: 60%;
+    margin: auto;
   }
 
   .h2-vision , .h2-goal
@@ -1104,7 +1113,7 @@ header .navbar ul li ul{
 
   .student-act
   {
-    font-size: 2rem;
+    font-size: 2.1vw;
     padding-top: 20px;
   }
 
