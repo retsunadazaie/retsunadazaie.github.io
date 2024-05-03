@@ -352,7 +352,7 @@ header .navbar ul li ul{
 .acronym {
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   font-family: "MontserratRegular";
 }
 
@@ -372,10 +372,11 @@ header .navbar ul li ul{
 }
 .meaning {
   display: none;
-  font-size: 20px;
+  font-size: 25px;
   transition: opacity 0.3s;
   max-height: 0;
   overflow: hidden;
+  transform: translateY(-10px);
 
 }
 .show {
@@ -396,6 +397,7 @@ header .navbar ul li ul{
   font-size: 40px;
   margin-bottom: 50px;
   transition: 0.5s;
+  color: #00141C;
 }
 
 .canossian-heart span
@@ -403,10 +405,11 @@ header .navbar ul li ul{
   font-size: 40px;
   margin-bottom: 50px;
   transition: 0.5s;
+  color: #00141C;
 }
 
 .canossian-heart span:hover {
-  color: #fc2f2f;
+  color: #006FD7;
   z-index: 1;
 }
 
@@ -919,7 +922,7 @@ footer{
   width: 500px;
   height: 400px;
   background-color: #00141C;
-  padding: 50px 50px 30px 150px ;
+  padding: 80px 50px 30px 150px ;
 }
 
 .secondsection{
@@ -1067,14 +1070,19 @@ footer{
   border-top: .5px solid #414040;
 }
 
-.copyRightText p a{
+.copyRightText .sitepolicy{
   color: #fff;
   text-decoration: none;
   transition: .3s;
 }
 
-.copyRightText p a:hover{
+.copyRightText .sitepolicy:hover{
   color: #006FD7;
+}
+
+.copyRightText p a{
+  color: #fff;
+  text-decoration: none;
 }
 
 @media (max-width: 1000px) {

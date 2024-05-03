@@ -201,6 +201,8 @@ header .navbar ul li{
     color: #222;
     font-size: 1.2em;
     margin: 20px;
+    left: 0 !important;
+    padding-left: 0 !important;
 }
 
 header .navbar ul li ul li a{
@@ -256,7 +258,7 @@ header .navbar ul li ul{
   }
 
   .flip-card-front {
-    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+
     position: absolute;
     justify-content: center;
     width: 100%;
@@ -392,7 +394,6 @@ header .navbar ul li ul{
       border-bottom-right-radius: 0px;
       margin-right: 0px;
       margin-left: 10px;
-      box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
     }
   .canus{
     font-style: italic;
@@ -449,7 +450,7 @@ header .navbar ul li ul{
 .flip-card {
  display: flex;
   background-color: transparent;
-  width: 700px;
+  width: 680px;
   perspective: 200px;
   font-family: sans-serif;
   text-align: left !important;
@@ -515,10 +516,11 @@ header .navbar ul li ul{
     .material-symbols-outlined {
       font-variation-settings:
       'FILL' 0,
-      'wght' 400,
+      'wght' 700,
       'GRAD' 0,
-      'opsz' 24
-      'color:' white !important;
+      'opsz' 24;
+      color: white !important;
+     
     }
     
     .heading-3--light {
@@ -607,6 +609,8 @@ header .navbar ul li ul{
 /* Footer Section */
 /*-------------------------------------------------------*/
 
+
+
 footer{
   position: relative;
   width: 100%;
@@ -621,7 +625,7 @@ footer{
   width: 500px;
   height: 400px;
   background-color: #00141C;
-  padding: 50px 50px 30px 150px ;
+  padding: 80px 50px 30px 150px ;
 }
 
 .secondsection-a{
@@ -699,7 +703,9 @@ footer{
 
 .secondsection-a ul{
   list-style-type: none; 
+  padding-left: 0 !important;
 }
+
 
 .secondsection-a ul a {
   color: #fff;
@@ -720,6 +726,7 @@ footer{
 .thirdsection-a .info {
   list-style-type: none; 
   text-decoration: none;
+  padding-left: 0 !important;
 }
 
 .thirdsection-a .info li {
@@ -736,6 +743,7 @@ footer{
 .thirdsection-a .info li img {
   width: 25px;
   height: 25px;
+    padding-left: 0 !important;
 }
 
 .thirdsection-a .info li p
@@ -757,6 +765,9 @@ footer{
 .thirdsection-a .pascu{
   width: 225px;
   height: 75px;
+
+
+  
 }
 
 .copyRightText p {
@@ -778,6 +789,10 @@ footer{
 
 .copyRightText p a:hover{
   color: #006FD7;
+}
+
+.copyr{
+  color: white !important;
 }
 @media (max-width: 1000px) {
   .copyRightText {
@@ -868,9 +883,12 @@ cursor: pointer;
   max-width: 850px;
   margin-top: -5px;
   padding-bottom: 10px;
-  padding-top: 40px;
+  padding-top: 20px;
   background-color: #006FD7;
 }
+
+
+
 .modal1, 
 .modal2,
 .modal3,
@@ -884,19 +902,59 @@ height: 60%;
 max-width: 300vw; 
 max-height: 400vw;
 position: fixed;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+top: 25%;
+left: 22%;
 text-align: center;
 justify-content: center;
 text-align: justify;
 border-radius: 8px;
+transition: all 0.2s ease-in-out;
+  animation: blowUpModal 0.2s ease-in-out; /* Added pop-up animation */
+  animation-fill-mode: forwards; /* Ensure the modal stays visible after animation */
 }
 .inside{
   margin: 40px 20px 10px 20px;
   font-size: 20px;
 }
+
+
 /* carousel real */
+/* ------------------------------------------------------------------------------------ */
+
+
+@keyframes blowUpModal {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+/* Hide content */
+@keyframes blowUpContent {
+	0% {
+		transform: scale(1);
+		opacity: 1;
+	}
+
+	99.9% {
+		transform: scale(2);
+		opacity: 0;
+	}
+
+	100% {
+		transform: scale(0);
+	}
+}
+
+
+
+
+
+
+
+
+
 
 /* media queries na pahirap */
 @media (max-width: 320px) {
@@ -960,6 +1018,7 @@ border-radius: 8px;
   height: 5rem;
   border-radius: 20px 20px 20px 20px;
   justify-content: left;
+  
 }
 .container p {
   font-size: 20px;
@@ -1191,6 +1250,8 @@ height: 30%;
 max-width: 500vw; 
 max-height: 40vh;
 position: fixed;
+top: 25%;
+left: 10%;
 
 }
 .modal-header {
@@ -1798,6 +1859,8 @@ width: 55%;
 height: 40%;
 max-width: 500vw; 
 max-height: 40vh;
+top: 25%;
+left: 22%;
 }
 }
 

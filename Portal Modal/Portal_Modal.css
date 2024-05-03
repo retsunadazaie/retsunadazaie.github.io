@@ -382,7 +382,7 @@ header .navbar ul li ul{
   .card1,
   .card2,
   .card3 {
-    width: 90%;
+    width: 100%;
     max-width: 300px;
     height: auto;
     margin-bottom: 20px;
@@ -531,7 +531,7 @@ header .navbar ul li ul{
   width: 500px;
   height: 400px;
   background-color: #00141C;
-  padding: 50px 50px 30px 150px ;
+  padding: 80px 50px 30px 150px ;
 }
 
 .secondsection{
@@ -682,14 +682,19 @@ header .navbar ul li ul{
   border-top: .5px solid #414040;
 }
 
-.copyRightText p a{
+.copyRightText .sitepolicy{
   color: #fff;
   text-decoration: none;
   transition: .3s;
 }
 
-.copyRightText p a:hover{
+.copyRightText .sitepolicy:hover{
   color: #006FD7;
+}
+
+.copyRightText p a{
+  color: #fff;
+  text-decoration: none;
 }
 
 @media (max-width: 1000px) {
@@ -716,3 +721,18 @@ header .navbar ul li ul{
     height: 60px;
   }
 }
+
+
+@media (min-width:609px) and (max-width:1020px)
+{
+  .container-card
+  {
+    flex-direction: column;
+  }
+
+  .title3
+  {
+
+  }
+}
+

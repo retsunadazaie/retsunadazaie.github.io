@@ -341,7 +341,7 @@ header .navbar ul li ul{
 .title-section .title {
   color: #006FD7;
   font-size: 35px;
-  padding: 100px 50px 50px 50px;
+  padding: 50px 50px 50px 50px;
   text-align: center;
 }
 
@@ -578,7 +578,7 @@ footer{
   width: 500px;
   height: 400px;
   background-color: #00141C;
-  padding: 50px 50px 30px 150px ;
+  padding: 80px 50px 30px 150px ;
 }
 
 .h-secondsection{
@@ -721,14 +721,19 @@ footer{
   border-top: .5px solid #414040;
 }
 
-.copyRightText p a{
+.copyRightText .sitepolicy{
   color: #fff;
   text-decoration: none;
   transition: .3s;
 }
 
-.copyRightText p a:hover{
+.copyRightText .sitepolicy:hover{
   color: #006FD7;
+}
+
+.copyRightText p a{
+  color: #fff;
+  text-decoration: none;
 }
 
 @media (max-width: 1000px) {

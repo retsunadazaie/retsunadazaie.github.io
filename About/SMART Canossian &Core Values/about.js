@@ -12,6 +12,8 @@ closeModal.addEventListener('click', function() {
   modal.close();
 });
 
+
+
 //MODAL2
 
 const modal2= document.querySelector('.modal2');
@@ -217,6 +219,21 @@ window.addEventListener('scroll', () => {
 
 // Hide the button initially when the page loads
 hideButton();
+
+
+
+
+// button namay animationnnnn hikhok
+$('.button').click(function(){
+  var buttonId = $(this).attr('id');
+  $('#modal-container').removeAttr('class').addClass(buttonId);
+  $('body').addClass('modal-active');
+})
+
+$('#modal-container').click(function(){
+  $(this).addClass('out');
+  $('body').removeClass('modal-active');
+});
 
 
 
