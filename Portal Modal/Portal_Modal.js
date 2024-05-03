@@ -76,12 +76,18 @@ button2.addEventListener("click", function() {
   window.location.href = "https://canossaacademylipasis.orangeapps.ph/canossaacademylipa/";
 });
 
-// //DROPDOWN
-// const dropdown = document.querySelector('.dropdown');
+//DROPDOWN
+const dropdown = document.querySelector('.dropdown');
 
-// dropdown.addEventListener('click', () =>{
-//   dropdown.classList.toggle('active');
-// });
+dropdown.addEventListener('click', () =>{
+  dropdown.classList.toggle('active');
+});
+
+dropdown.addEventListener('mouseleave', () => {
+  timeoutId = setTimeout(() => {
+      dropdown.classList.remove('active');
+  }, 100); // Adjust the delay as needed (in milliseconds)
+});
 
 
 
@@ -108,12 +114,4 @@ button2.addEventListener("click", function() {
 //     });
 // });
 
-const dropdown = document.querySelector('.dropdown');
 
-dropdown.addEventListener('mouseenter', () =>{
-  dropdown.classList.add('active');
-});
-
-dropdown.addEventListener('mouseleave', () =>{
-  dropdown.classList.remove('active');
-});

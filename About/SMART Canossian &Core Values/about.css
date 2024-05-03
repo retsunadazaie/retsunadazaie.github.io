@@ -1118,7 +1118,7 @@ cursor: pointer;
   .button1{
     font-size: 70%;
     width: 40%;
-    height:2.10rem;
+    height:3rem;
     font-weight: 300;
     transition: 0.2;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1265,7 +1265,7 @@ left: 10%;
   max-width: 850px;
   background-color: white; 
   padding-bottom: 10px;
-  padding-top: 40px;
+  padding-top: 20px;
   background-color: #006FD7;
 }
 .modal-header h1{
@@ -1329,8 +1329,10 @@ left: 10%;
   width: 45vw;
   height: 4vh;
   font-family: sans-serif;
- 
-
+}
+.modal-header h1{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 .flip-card-front {
   height: 5rem;
@@ -1376,7 +1378,6 @@ left: 10%;
 }
 
 .carousel-item h1{
-  padding-bottom: 5vh;
   font-size: 15px;
 }
 
@@ -1386,6 +1387,10 @@ left: 10%;
 .carousel-item h2{
   color: #A9A9A9;
   font-size: 13px;
+}
+.modal-header{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .open-button,
@@ -1412,7 +1417,7 @@ cursor: pointer;
 
 
 /* ==================================================== */
-@media (min-width: 561px) and (max-width: 663px){
+@media (min-width: 561px) and (max-width: 608px){
 
   .thirdsection{
     height: 33rem;
@@ -1550,9 +1555,9 @@ cursor: pointer;
 
 .modal-header{
 width: 100%; 
-height: 15%;
 max-width: 500vw; 
-max-height: 400vh;
+padding-top: 20px;
+padding-bottom: 20px;
 }
 
 .modal-header h1{
@@ -1561,12 +1566,195 @@ max-height: 400vh;
 }
 }
 
+
+
+
+
+
+@media (min-width: 609px) and (max-width: 663px){
+
+  
+  .thirdsection{
+    height: 33rem;
+  }
+ 
+  .fourthsection {
+    padding-top: 2vh;
+  }
+  .image-overlay{
+    font-size: 80%;
+    justify-content: center;
+  }
+  .image-overlay p {
+    font-size: 22px;
+  }
+  .canus{
+
+    padding-top: 1px;
+  }
+  .button1{
+    font-size: 70%;
+    width: 30%;
+    height: 5vh;
+    font-weight: 300;
+    transition: 0.2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+  }
+  .container{
+    display: none;
+  }
+  .maincont{
+    position: relative;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  .smart{
+    font-size: 7.5vh !important;
+    letter-spacing: 1px;
+  }
+  .heart{
+    letter-spacing: 0.5px;
+    font-size: 3.5vh;
+    margin-bottom: 18px;
+}
+.meaning1{
+  font-size: 12px;
+  font-weight: 500em;
+  text-align: justify;
+  margin: 23px 0px 0px 0px;
+  text-align: center;
+  }
+.flip-card {
+  width: 45vh;
+  height: 4vh;
+  font-family: sans-serif;
+}
+.flip-card-front {
+  height: 70px;
+  border-radius: 20px 20px 20px 20px;
+  justify-content: left;
+  width: 75vw;
+}
+.container p {
+  font-size: 20px;
+  margin-top: .1em;
+  font-weight: 1000;
+  color: white;
+}
+.container-wrapper{
+  justify-content: center;
+  margin-bottom: 45px;
+}
+.cores{
+  font-size: 7.5vw;
+}
+.slider__item-content{
+  padding: 20px 20px;
+}
+.heading-3{
+  font-size: 12px;
+  margin: 10px 10px 10px 0px;
+  line-height: 15px !important;
+  
+}
+.heading-2{
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 0px;
+  
+}
+.slider__item-text{
+  font-size: 10px;
+}
+
+.core1{
+  font-size: 8px;
+}
+
+.carousel-item h1{
+  padding-bottom: 5vh;
+  font-size: 15px;
+}
+
+.carousel-indicators {
+  display: none;
+}
+.carousel-item h2{
+  color: #A9A9A9;
+  font-size: 13px;
+}
+
+.open-button,
+.open-button2,
+.open-button3,
+.open-button4,
+.open-button5,
+.open-button6,
+.open-button7,
+.open-button8 {
+justify-content: center;
+display: inline-block;
+padding: 7px 30px;
+border: none;
+background-color: white;
+color: #004281;
+font-size: 10px;
+font-weight: 600;
+border-radius: 3px;
+cursor: pointer;
+}
+
+.modal-header{
+width: 100%; 
+max-width: 500vw; 
+padding-bottom: 20px;
+padding-top: 20px;
+
+}
+
+.modal-header h1{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 664px) and (max-width: 768px){
   .fourthsection {
     padding-top: 2vh;
   }
   .image-overlay p {
     font-size: 24px;
+  }
+
+  .modal-header h1{
+    padding-bottom: 0 !important;
+    margin-bottom: 0;
+  }
+  .modal-header{
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .image-overlay{
@@ -1885,6 +2073,10 @@ cursor: pointer;
   padding-bottom: -0px;
   margin-bottom: 0px;
 }
+.modal-header{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .modal1, 
 .modal2,
 .modal3,
@@ -1951,6 +2143,15 @@ height: 40%;
 max-width: 500vw; 
 max-height: 400vh;
 }
+
+.modal-header h1 {
+  padding-bottom: 0 !important;
+  margin-bottom: 0;
+}
+.modal-header{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 }
 
 
@@ -2014,9 +2215,10 @@ max-height: 400vh;
 
 .modal-header{
 width: 100%;
-height: 25%;
 max-width: 500vw; 
-max-height: 400vh;
+padding-top: 30px;
+padding-bottom: 30px;
+
 }
 
 .inside{
@@ -2077,9 +2279,10 @@ position: fixed;
 
 .modal-header{
 width: 100%; 
-height: 30%;
+padding-top: 40px;
+padding-bottom: 40px;
 max-width: 500vw; 
-max-height: 40vh;
+
 }
 
 .inside{
