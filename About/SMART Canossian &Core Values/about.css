@@ -880,15 +880,11 @@ cursor: pointer;
   justify-content: space-between;
   font-size: 1em;
   position: fixed;
-  width: 100%;
-  max-width: 850px;
   margin-top: -5px;
   padding-bottom: 10px;
   padding-top: 20px;
   background-color: #006FD7;
 }
-
-
 
 .modal1, 
 .modal2,
@@ -899,20 +895,18 @@ cursor: pointer;
 .modal7,
 .modal8 {
 width: auto; 
-height: 60%; 
-
-max-height: 400vw;
+height: auto; 
 position: fixed;
 top: 25%;
 left: 22%;
-text-align: center;
-justify-content: center;
 text-align: justify;
 border-radius: 8px;
 transition: all 0.2s ease-in-out;
-  animation: blowUpModal 0.2s ease-in-out; /* Added pop-up animation */
-  animation-fill-mode: forwards; /* Ensure the modal stays visible after animation */
+animation: blowUpModal 0.2s ease-in-out; /* Added pop-up animation */
+animation-fill-mode: forwards; /* Ensure the modal stays visible after animation */
+overflow: visible;
 }
+
 .inside{
   margin: 40px 20px 10px 20px;
   font-size: 20px;
@@ -2207,10 +2201,8 @@ height: 5vh;
 .modal6,
 .modal7,
 .modal8 {
-width: 55%; 
-height: 50%;
-max-width: 500vw; 
-max-height: 400vh;
+width: auto; 
+height: auto;
 }
 
 .modal-header{
@@ -2270,10 +2262,8 @@ height: 5vh;
 .modal6,
 .modal7,
 .modal8 {
-width: 60%; 
-height: 30%; 
-max-width: 500vw; 
-max-height: 40vh;
+width: auto; 
+height: auto; 
 position: fixed;
 }
 
@@ -2317,10 +2307,8 @@ max-width: 500vw;
 .modal6,
 .modal7,
 .modal8 {
-width: 60%;
-height: 30%; 
-max-width: 500vw; 
-max-height: 40vh;
+width: auto;
+height: auto; 
 position: fixed;
 }
 
