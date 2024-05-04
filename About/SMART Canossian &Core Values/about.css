@@ -108,7 +108,7 @@ header .navbar ul li a:before{
 
 header .navbar ul li a:hover:before{
   width: 100%;
-  background: #006FD7;
+  background: #72b5f3;
 }
 
 header .navbar ul li ul li a{
@@ -851,6 +851,7 @@ font-size: 18px;
 font-weight: 600;
 border-radius: 3px;
 cursor: pointer;
+height: 10vh;
 }
 #pricing {
   padding: 5%;
@@ -882,20 +883,7 @@ cursor: pointer;
   background-color: #006FD7;
 }
 
-.modal1{
-width: auto; 
-height: 10%; 
-position: fixed;
-top: 25%;
-left: 26%;
-text-align: justify;
-border-radius: 8px;
-transition: all 0.2s ease-in-out;
-animation: blowUpModal 0.2s ease-in-out; /* Added pop-up animation */
-animation-fill-mode: forwards; /* Ensure the modal stays visible after animation */
-overflow: visible;
-}
-
+.modal1,
 .modal2,
 .modal3,
 .modal4,
@@ -904,16 +892,17 @@ overflow: visible;
 .modal7,
 .modal8 {
 width: auto; 
-height: auto; 
 position: fixed;
 top: 25%;
-left: 26%;
+left: 25%;
+right: 25%;
 text-align: justify;
 border-radius: 8px;
 transition: all 0.2s ease-in-out;
 animation: blowUpModal 0.2s ease-in-out; /* Added pop-up animation */
 animation-fill-mode: forwards; /* Ensure the modal stays visible after animation */
-overflow: visible;
+overflow: auto;
+max-height: 70vh;
 }
 
 .inside{
@@ -1094,37 +1083,44 @@ overflow: visible;
 .open-button6,
 .open-button7,
 .open-button8 {
-justify-content: center;
-display: inline-block;
-padding: 7px 30px;
-border: none;
-background-color: white;
-color: #004281;
+height: 2vh;
 font-size: 10px;
-font-weight: 600;
-border-radius: 3px;
-cursor: pointer;
 }
 
 .carousel-item {
   height: 25vh;
 }
-.modal1{
-  height: 14%;
-  top: 25%;
-  left: 2%;
-}
+.modal1,
 .modal2,
-.modal3,
-.modal4,
-.modal5,
-.modal6,
-.modal7,
-.modal8 {
-  top: 25%;
-  left: 2%;
+
+.modal4
+
+
+
+{
+width: 80%; 
+height: 20%;
+top: 25%;
+left: 10%;
+
+}
+.modal5{
+  height: 25%;
 }
 
+.modal3{
+  height: 33%; 
+}
+.modal7 {
+  height: 34%;
+}
+.modal6{
+  height: 25%;
+}
+
+.modal8 {
+height: 28%;
+}
 .inside{
   padding-bottom: 20px;
 }
@@ -1266,41 +1262,42 @@ cursor: pointer;
 .open-button6,
 .open-button7,
 .open-button8 {
-justify-content: center;
-display: inline-block;
-padding: 7px 30px;
-border: none;
-background-color: white;
-color: #004281;
+height: 3vh;
 font-size: 10px;
-font-weight: 600;
-border-radius: 3px;
-cursor: pointer;
 }
 
 .carousel-item {
   height: 25vh;
 }
-.modal1{
-  height: 22%;
-  top: 25%;
-left: 2%;
-}
-  
+.modal1,
 .modal2,
-.modal3,
+
 .modal4,
-.modal5,
-.modal6,
-.modal7,
-.modal8 {
+.modal5
+
+
+{
 width: 80%; 
-height: 90%; 
-max-width: 500vw; 
+height: 20%;
 top: 25%;
 left: 10%;
 
 }
+
+.modal3{
+  height: 30%; 
+}
+.modal7 {
+  height: 30%;
+}
+.modal6{
+  height: 23%;
+}
+
+.modal8 {
+height: 28%;
+}
+
 .modal-header {
   font-size: 1em;
   position: fixed;
@@ -1440,19 +1437,18 @@ left: 10%;
 width: 100%;
 }
 
-.modal1{
-  height: 43%;
-
-}
+.modal1,
 .modal2,
-.modal3,
+
 .modal4,
 .modal5,
 .modal6,
 .modal7,
 .modal8 {
-  top: 25%;
-  left: 1%;
+  height: 28%;
+}
+.modal3{
+  height: 40%;
 }
 .inside{
   padding-bottom: 10px;
@@ -1469,16 +1465,8 @@ width: 100%;
 .open-button6,
 .open-button7,
 .open-button8 {
-justify-content: center;
-display: inline-block;
-padding: 7px 30px;
-border: none;
-background-color: white;
-color: #004281;
-font-size: 10px;
-font-weight: 600;
-border-radius: 3px;
-cursor: pointer;
+height: 3vh;
+font-size: 12px;
 }
 }
 
@@ -1609,16 +1597,8 @@ cursor: pointer;
 .open-button6,
 .open-button7,
 .open-button8 {
-justify-content: center;
-display: inline-block;
-padding: 7px 30px;
-border: none;
-background-color: white;
-color: #004281;
+height: 3vh;
 font-size: 10px;
-font-weight: 600;
-border-radius: 3px;
-cursor: pointer;
 }
 
 .modal-header{
@@ -1633,9 +1613,27 @@ padding-bottom: 20px;
   margin-bottom: 0px;
 }
 
+.modal1,
+.modal2,
+.modal4
+{
+  height: 35%;
+}
+.modal3{
+  height: 55%;
+}
 
-.modal1{
-  height: 40%;
+.modal5{
+  height: 45%;
+}
+.modal6{
+  height: 43%;
+}
+.modal7{
+  height: 55%;
+}
+.modal8{
+  height: 48%;
 }
 }
 
@@ -1769,16 +1767,8 @@ padding-bottom: 20px;
 .open-button6,
 .open-button7,
 .open-button8 {
-justify-content: center;
-display: inline-block;
-padding: 7px 30px;
-border: none;
-background-color: white;
-color: #004281;
-font-size: 10px;
-font-weight: 600;
-border-radius: 3px;
-cursor: pointer;
+height: 3vh;
+font-size: 13px;
 }
 
 .modal-header{
@@ -1792,11 +1782,8 @@ max-width: 500vw;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-.modal1{
-  height: 25%;
-  top: 25%;
-  left: 1%;
-}
+.modal1,
+
 .modal2,
 .modal3,
 .modal4,
@@ -1805,7 +1792,6 @@ max-width: 500vw;
 .modal7,
 .modal8 {
   top: 25%;
-  left: 5%;
   height: 40%;
 }
 
@@ -1976,22 +1962,32 @@ max-width: 500vw;
   width: 100%;
 }
 
-.modal1{
-  height: 25%;
+.modal1,
+.modal2,
+
+.modal4
+
+
+
+ {
+  height: 27%;
   top: 25%;
-  left: 5%;
+}
+.modal3 {
+  height: 46%;
 }
 
-.modal2,
-.modal3,
-.modal4,
-.modal5,
-.modal6,
-.modal7,
-.modal8 {
-  top: 25%;
-  left: 5%;
+.modal5, 
+.modal6{
+  height: 38%;
 }
+.modal7{
+  height: 51%;
+}
+.modal8{
+  height: 46%;
+}
+
 
 .inside{
   padding-bottom: 15px;
@@ -2006,16 +2002,8 @@ max-width: 500vw;
 .open-button6,
 .open-button7,
 .open-button8 {
-justify-content: center;
-display: inline-block;
-padding: 7px 30px;
-border: none;
-background-color: white;
-color: #004281;
-font-size: 10px;
-font-weight: 600;
-border-radius: 3px;
-cursor: pointer;
+height: 3vh;
+font-size: 12px;
 }
 }
 
@@ -2173,16 +2161,8 @@ cursor: pointer;
 .open-button6,
 .open-button7,
 .open-button8 {
-justify-content: center;
-display: inline-block;
-padding: 7px 30px;
-border: none;
-background-color: white;
-color: #004281;
-font-size: 10px;
-font-weight: 600;
-border-radius: 3px;
-cursor: pointer;
+height: 3vh;
+font-size: 15px;
 }
 .modal-header h1{
   padding-bottom: 0px;
@@ -2192,26 +2172,39 @@ cursor: pointer;
   width: 100%;
 }
 
-.modal1{
-  height: 24%;
-  margin: 5px 20px 10px 20px;
-  top: 25%;
-  left: 12%;
+.modal1,
+.modal2
+
+
+
+ {
+width: 55%;
+height: 35%;
+top: 25%;
+}
+.modal3{
+  height: 45% ;
+}
+.modal4 {
+  height: 29%;
+}
+.modal5 {
+  height: 34%;
+}
+.modal6 {
+  height: 32%;
 }
 
-.modal2,
-.modal3,
-.modal4,
-.modal5,
-.modal6,
-.modal7,
-.modal8 {
-width: 55%;
-height: 40%;
-max-width: 500vw; 
-top: 25%;
-left: 22%;
+
+
+.modal8{
+  height: 38%;
 }
+
+.modal7 {
+  height: 42%;
+}
+
 
 .inside{
   padding-bottom: 20px;
@@ -2252,6 +2245,7 @@ font-size: 10px;
 font-weight: 600;
 border-radius: 3px;
 cursor: pointer;
+height: 3vh;
 
 }
 
@@ -2263,26 +2257,33 @@ cursor: pointer;
 }
 
 
-.modal1{
-  height: 24%; 
-  top: 25%;
-  left: 10%;
-} 
-
+.modal1,
 .modal2,
-.modal3,
-.modal4,
-.modal5,
-.modal6,
-.modal7,
-.modal8 {
+
+.modal4
+
+
+
+ {
 width: 55%; 
-height: 40%;
-max-width: 500vw; 
-max-height: 400vh;
-top: 25%;
-  left: 10%;
+height: 28%;
 }
+.modal3{
+  height: 37%;
+}
+.modal5{
+  height: 28%;
+}
+.modal6 {
+  height: 28%;
+}
+.modal7 {
+  height: 37%;
+}
+.modal8 {
+  height: 31%;
+}
+
 .inside{
   margin: 10px 10px 10px 10px;
   padding-bottom: 20px;
@@ -2318,17 +2319,8 @@ top: 25%;
 .open-button6,
 .open-button7,
 .open-button8 {
-justify-content: center;
-display: inline-block;
-padding: 7px 30px;
-border: none;
-background-color: white;
-color: #004281;
-font-size: 14px;
-font-weight: 600;
-border-radius: 3px;
-cursor: pointer;
-height: 3vh;
+height: 5vh;
+font-size: 15px;
 }
 .flip-card-front {
   border-radius: 0px 20px 20px 0px;
@@ -2342,23 +2334,28 @@ height: 3vh;
   font-size: 30px;
   padding-bottom: 0px;
 }
-.modal1{
-  height: 32%; 
-  top: 25%;
-  left: 25%;
+
+.modal3 {
+  height: 68%;
 }
 
+.modal1,
 .modal2,
-.modal3,
 .modal4,
 .modal5,
-.modal6,
-.modal7,
-.modal8 {
+.modal6
+
+ {
 width: auto; 
-height: auto;
+height: 47%;
 top: 25%;
-  left: 25%;
+left: 25%;
+}
+.modal7 {
+  height: 68%;
+}
+.modal8 {
+  height: 56%;
 }
 
 .modal-header{
@@ -2366,8 +2363,9 @@ width: 100%;
 }
 
 .inside{
+  padding-top: 10px;
   margin-top: 2vh;
-  padding-bottom: 20px;
+
 }
 
 .modal-header h1{
@@ -2408,15 +2406,30 @@ height: 4vh;
 }
 .modal1, 
 .modal2,
-.modal3,
-.modal4,
-.modal5,
-.modal6,
-.modal7,
-.modal8 {
+
+.modal4
+
+
+
+ {
 width: auto; 
-height: 25%; 
+height: 27%; 
 position: fixed;
+}
+.modal3 {
+  height: 40%;
+}
+.modal5{
+  height: 30%;
+}
+.modal6 {
+  height: 30%;
+}
+.modal7 {
+  height: 38%;
+}
+.modal8{
+  height: 36%;
 }
 
 .modal-header{
@@ -2427,7 +2440,7 @@ max-width: 500vw;
 }
 
 .inside{
-  margin: 20px 20px 10px 20px;
+  margin: 30px 20px 10px 20px;
   padding-bottom: 20px;
 }
 
@@ -2451,23 +2464,54 @@ max-width: 500vw;
 }
 
 .modal1{
-  height: 25%; 
-  top: 25%;
-  left: 32%;
-}
-
-.modal2,
-.modal3,
-.modal4,
-.modal5,
-.modal6,
-.modal7,
-.modal8 {
 width: auto;
-height: 38%; 
+height: 27%; 
 top: 25%;
 left: 32%;
+}
 
+.modal2{
+width: auto;
+height: 27%; 
+top: 25%;
+}
+
+.modal3{
+width: auto;
+height: 40%; 
+top: 25%;
+left: 32%;
+}
+
+.modal4{
+width: auto;
+height: 27%; 
+top: 25%;
+left: 32%;
+}
+
+.modal5,
+.modal6{
+width: auto;
+height: 30%; 
+top: 25%;
+left: 32%;
+}
+
+
+
+.modal7 {
+width: auto;
+height: 37%; 
+top: 25%;
+left: 32%;
+}
+
+.modal8{
+width: auto;
+height: 35%; 
+top: 25%;
+left: 32%;
 }
 
 .modal-header{
@@ -2476,13 +2520,22 @@ max-width: 500vw;
 }
 
 .inside{
-  margin: 20px 20px 10px 20px;
-  padding-bottom: 10px;
+  margin: 30px 20px 0px 20px;
 }
 
 .modal-header h1{
   padding-bottom: 0px;
   margin-bottom: 0px;
+}
+.open-button,
+.open-button2,
+.open-button3,
+.open-button4,
+.open-button5,
+.open-button6,
+.open-button7,
+.open-button8 {
+height: 4vh;
 }
 }
 
@@ -2493,4 +2546,6 @@ max-width: 500vw;
     width: 255px;
     height: 60px;
   }
+
+  
 }

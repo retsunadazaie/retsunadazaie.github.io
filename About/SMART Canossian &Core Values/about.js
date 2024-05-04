@@ -13,17 +13,7 @@ closeModal.addEventListener('click', function() {
   modal1.close();
 });
 
-function adjustModalSize(modal) {
-  const modalHeader = modal.querySelector('.modal-header');
-  const insideContent = modal.querySelector('.inside');
 
-  const modalWidth = Math.max(modalHeader.offsetWidth, insideContent.offsetWidth);
-  const modalHeight = modalHeader.offsetHeight + insideContent.offsetHeight;
-
-  // Set modal width and height based on header and inside content
-  modal.style.width = `${modalWidth}px`;
-  modal.style.height = `${modalHeight}px`;
-}
 
 
 
@@ -41,17 +31,7 @@ closeModal2.addEventListener('click', function() {
   modal2.close();
 });
 
-function adjustModalSize(modal) {
-  const modalHeader = modal.querySelector('.modal-header');
-  const insideContent = modal.querySelector('.inside');
 
-  const modalWidth = Math.max(modalHeader.offsetWidth, insideContent.offsetWidth);
-  const modalHeight = modalHeader.offsetHeight + insideContent.offsetHeight;
-
-  // Set modal width and height based on header and inside content
-  modal.style.width = `${modalWidth}px`;
-  modal.style.height = `${modalHeight}px`;
-}
 
 
 
@@ -70,17 +50,6 @@ closeModal3.addEventListener('click', function() {
   modal3.close();
 });
 
-function adjustModalSize(modal) {
-  const modalHeader = modal.querySelector('.modal-header');
-  const insideContent = modal.querySelector('.inside');
-
-  const modalWidth = Math.max(modalHeader.offsetWidth, insideContent.offsetWidth);
-  const modalHeight = modalHeader.offsetHeight + insideContent.offsetHeight;
-
-  // Set modal width and height based on header and inside content
-  modal.style.width = `${modalWidth}px`;
-  modal.style.height = `${modalHeight}px`;
-}
 
 
 //MODAL4
@@ -97,17 +66,6 @@ closeModal4.addEventListener('click', function() {
   modal4.close();
 });
 
-function adjustModalSize(modal) {
-  const modalHeader = modal.querySelector('.modal-header');
-  const insideContent = modal.querySelector('.inside');
-
-  const modalWidth = Math.max(modalHeader.offsetWidth, insideContent.offsetWidth);
-  const modalHeight = modalHeader.offsetHeight + insideContent.offsetHeight;
-
-  // Set modal width and height based on header and inside content
-  modal.style.width = `${modalWidth}px`;
-  modal.style.height = `${modalHeight}px`;
-}
 
 
 //MODAL5
@@ -124,18 +82,6 @@ closeModal5.addEventListener('click', function() {
   modal5.close();
 });
 
-function adjustModalSize(modal) {
-  const modalHeader = modal.querySelector('.modal-header');
-  const insideContent = modal.querySelector('.inside');
-
-  const modalWidth = Math.max(modalHeader.offsetWidth, insideContent.offsetWidth);
-  const modalHeight = modalHeader.offsetHeight + insideContent.offsetHeight;
-
-  // Set modal width and height based on header and inside content
-  modal.style.width = `${modalWidth}px`;
-  modal.style.height = `${modalHeight}px`;
-}
-
 
 //MODAL6
 const modal6 = document.querySelector('.modal6');
@@ -151,17 +97,6 @@ closeModal6.addEventListener('click', function() {
   modal6.close();
 });
 
-function adjustModalSize(modal) {
-  const modalHeader = modal.querySelector('.modal-header');
-  const insideContent = modal.querySelector('.inside');
-
-  const modalWidth = Math.max(modalHeader.offsetWidth, insideContent.offsetWidth);
-  const modalHeight = modalHeader.offsetHeight + insideContent.offsetHeight;
-
-  // Set modal width and height based on header and inside content
-  modal.style.width = `${modalWidth}px`;
-  modal.style.height = `${modalHeight}px`;
-}
 
 
 //MODAL7
@@ -179,17 +114,7 @@ closeModal7.addEventListener('click', function() {
   modal7.close();
 });
 
-function adjustModalSize(modal) {
-  const modalHeader = modal.querySelector('.modal-header');
-  const insideContent = modal.querySelector('.inside');
 
-  const modalWidth = Math.max(modalHeader.offsetWidth, insideContent.offsetWidth);
-  const modalHeight = modalHeader.offsetHeight + insideContent.offsetHeight;
-
-  // Set modal width and height based on header and inside content
-  modal.style.width = `${modalWidth}px`;
-  modal.style.height = `${modalHeight}px`;
-}
 
 //MODAL8
 const modal8 = document.querySelector('.modal8');
@@ -204,19 +129,6 @@ openModal8.addEventListener('click', () => {
 closeModal8.addEventListener('click', function() {
   modal8.close();
 });
-
-function adjustModalSize(modal) {
-  const modalHeader = modal.querySelector('.modal-header');
-  const insideContent = modal.querySelector('.inside');
-
-  const modalWidth = Math.max(modalHeader.offsetWidth, insideContent.offsetWidth);
-  const modalHeight = modalHeader.offsetHeight + insideContent.offsetHeight;
-
-  // Set modal width and height based on header and inside content
-  modal.style.width = `${modalWidth}px`;
-  modal.style.height = `${modalHeight}px`;
-}
-
 
 
 
