@@ -893,7 +893,7 @@ height: 10vh;
 .modal8 {
 width: auto; 
 position: fixed;
-top: 25%;
+top: 20%;
 left: 25%;
 right: 25%;
 text-align: justify;
@@ -902,7 +902,8 @@ transition: all 0.2s ease-in-out;
 animation: blowUpModal 0.2s ease-in-out; /* Added pop-up animation */
 animation-fill-mode: forwards; /* Ensure the modal stays visible after animation */
 overflow: auto;
-max-height: 70vh;
+width: fit-content;
+height: fit-content;
 }
 
 .inside{
@@ -940,8 +941,29 @@ max-height: 70vh;
 	}
 }
 
+/* new cores value design */
+/* .grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 1fr); 
+  gap: 10px; 
+}
+
+.item {
+  background-color: #FFF;
+  padding: 20px;
+  text-align: center;
+}
+
+.kahon {
+  display: flex;
+  justify-content: center; 
+  padding-left: 20vw; 
+  padding-right: 20vw; 
+} */
 
 
+/* new cores value design */
 
 
 
@@ -1090,37 +1112,7 @@ font-size: 10px;
 .carousel-item {
   height: 25vh;
 }
-.modal1,
-.modal2,
 
-.modal4
-
-
-
-{
-width: 80%; 
-height: 20%;
-top: 25%;
-left: 10%;
-
-}
-.modal5{
-  height: 25%;
-}
-
-.modal3{
-  height: 33%; 
-}
-.modal7 {
-  height: 34%;
-}
-.modal6{
-  height: 25%;
-}
-
-.modal8 {
-height: 28%;
-}
 .inside{
   padding-bottom: 20px;
 }
@@ -1269,34 +1261,7 @@ font-size: 10px;
 .carousel-item {
   height: 25vh;
 }
-.modal1,
-.modal2,
 
-.modal4,
-.modal5
-
-
-{
-width: 80%; 
-height: 20%;
-top: 25%;
-left: 10%;
-
-}
-
-.modal3{
-  height: 30%; 
-}
-.modal7 {
-  height: 30%;
-}
-.modal6{
-  height: 23%;
-}
-
-.modal8 {
-height: 28%;
-}
 
 .modal-header {
   font-size: 1em;
@@ -1437,19 +1402,7 @@ height: 28%;
 width: 100%;
 }
 
-.modal1,
-.modal2,
 
-.modal4,
-.modal5,
-.modal6,
-.modal7,
-.modal8 {
-  height: 28%;
-}
-.modal3{
-  height: 40%;
-}
 .inside{
   padding-bottom: 10px;
   margin: 5px 15px 10px 15px;
@@ -1613,28 +1566,7 @@ padding-bottom: 20px;
   margin-bottom: 0px;
 }
 
-.modal1,
-.modal2,
-.modal4
-{
-  height: 35%;
-}
-.modal3{
-  height: 55%;
-}
 
-.modal5{
-  height: 45%;
-}
-.modal6{
-  height: 43%;
-}
-.modal7{
-  height: 55%;
-}
-.modal8{
-  height: 48%;
-}
 }
 
 
@@ -1782,18 +1714,7 @@ max-width: 500vw;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-.modal1,
 
-.modal2,
-.modal3,
-.modal4,
-.modal5,
-.modal6,
-.modal7,
-.modal8 {
-  top: 25%;
-  height: 40%;
-}
 
 .inside{
   padding-bottom: 20px;
@@ -1960,32 +1881,6 @@ max-width: 500vw;
 
 .modal-header{
   width: 100%;
-}
-
-.modal1,
-.modal2,
-
-.modal4
-
-
-
- {
-  height: 27%;
-  top: 25%;
-}
-.modal3 {
-  height: 46%;
-}
-
-.modal5, 
-.modal6{
-  height: 38%;
-}
-.modal7{
-  height: 51%;
-}
-.modal8{
-  height: 46%;
 }
 
 
@@ -2172,38 +2067,6 @@ font-size: 15px;
   width: 100%;
 }
 
-.modal1,
-.modal2
-
-
-
- {
-width: 55%;
-height: 35%;
-top: 25%;
-}
-.modal3{
-  height: 45% ;
-}
-.modal4 {
-  height: 29%;
-}
-.modal5 {
-  height: 34%;
-}
-.modal6 {
-  height: 32%;
-}
-
-
-
-.modal8{
-  height: 38%;
-}
-
-.modal7 {
-  height: 42%;
-}
 
 
 .inside{
@@ -2257,32 +2120,6 @@ height: 3vh;
 }
 
 
-.modal1,
-.modal2,
-
-.modal4
-
-
-
- {
-width: 55%; 
-height: 28%;
-}
-.modal3{
-  height: 37%;
-}
-.modal5{
-  height: 28%;
-}
-.modal6 {
-  height: 28%;
-}
-.modal7 {
-  height: 37%;
-}
-.modal8 {
-  height: 31%;
-}
 
 .inside{
   margin: 10px 10px 10px 10px;
@@ -2339,24 +2176,6 @@ font-size: 15px;
   height: 68%;
 }
 
-.modal1,
-.modal2,
-.modal4,
-.modal5,
-.modal6
-
- {
-width: auto; 
-height: 47%;
-top: 25%;
-left: 25%;
-}
-.modal7 {
-  height: 68%;
-}
-.modal8 {
-  height: 56%;
-}
 
 .modal-header{
 width: 100%;
@@ -2373,8 +2192,9 @@ width: 100%;
   margin-bottom: 0px;
 }
 }
-/* =================================================== */
-@media (min-width: 1367px) and (max-width: 1600px){
+
+
+@media (min-width: 1367px) and (max-width: 1536px){
   .carousel-item h1{
     font-size: 24px;
   }
@@ -2404,37 +2224,62 @@ border-radius: 3px;
 cursor: pointer;
 height: 4vh;
 }
-.modal1, 
-.modal2,
 
-.modal4
+.modal-header h1{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
 
 
+.modal-header{
+  width: 100%; 
+  max-width: 500vw; 
+  
+}
+}
+/* =================================================== */
+@media (min-width: 1537px) and (max-width: 1600px){
+  .carousel-item h1{
+    font-size: 24px;
+  }
+  .carousel-item h2{
+    font-size: 15px;
+  }
+  .meaning1{
+    font-size: 24px;
+  }
+.open-button,
+.open-button2,
+.open-button3,
+.open-button4,
+.open-button5,
+.open-button6,
+.open-button7,  
+.open-button8 {
+justify-content: center;
+display: inline-block;
+padding: 7px 30px;
+border: none;
+background-color: white;
+color: #004281;
+font-size: 12px;
+font-weight: 600;
+border-radius: 3px;
+cursor: pointer;
+height: 4vh;
+}
+inside{
+  margin: 30px 20px 10px 20px;
+  padding-bottom: 20px;
+}
 
- {
-width: auto; 
-height: 27%; 
-position: fixed;
-}
-.modal3 {
-  height: 40%;
-}
-.modal5{
-  height: 30%;
-}
-.modal6 {
-  height: 30%;
-}
-.modal7 {
-  height: 38%;
-}
-.modal8{
-  height: 36%;
+.modal-header h1{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .modal-header{
 width: 100%; 
-
 max-width: 500vw; 
 
 }
@@ -2463,56 +2308,6 @@ max-width: 500vw;
   font-size: 23px;
 }
 
-.modal1{
-width: auto;
-height: 27%; 
-top: 25%;
-left: 32%;
-}
-
-.modal2{
-width: auto;
-height: 27%; 
-top: 25%;
-}
-
-.modal3{
-width: auto;
-height: 40%; 
-top: 25%;
-left: 32%;
-}
-
-.modal4{
-width: auto;
-height: 27%; 
-top: 25%;
-left: 32%;
-}
-
-.modal5,
-.modal6{
-width: auto;
-height: 30%; 
-top: 25%;
-left: 32%;
-}
-
-
-
-.modal7 {
-width: auto;
-height: 37%; 
-top: 25%;
-left: 32%;
-}
-
-.modal8{
-width: auto;
-height: 35%; 
-top: 25%;
-left: 32%;
-}
 
 .modal-header{
 width: 100%; 
@@ -2520,7 +2315,7 @@ max-width: 500vw;
 }
 
 .inside{
-  margin: 30px 20px 0px 20px;
+  margin: 30px 20px 20px 20px;
 }
 
 .modal-header h1{
@@ -2547,5 +2342,5 @@ height: 4vh;
     height: 60px;
   }
 
-  
+    
 }

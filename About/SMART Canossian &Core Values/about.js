@@ -1,4 +1,5 @@
 
+
 //MODAL1
 const modal1 = document.getElementById('modal1');
 const openModal1 = document.getElementById('open-button');
@@ -13,8 +14,11 @@ closeModal.addEventListener('click', function() {
   modal1.close();
 });
 
-
-
+modal1.addEventListener('click', (event) => {
+  if (event.target === modal1) {
+    modal1.close();
+  }
+});
 
 
 //MODAL2
@@ -31,7 +35,11 @@ closeModal2.addEventListener('click', function() {
   modal2.close();
 });
 
-
+modal2.addEventListener('click', (event) => {
+  if (event.target === modal2) {
+    modal2.close();
+  }
+});
 
 
 
@@ -50,6 +58,11 @@ closeModal3.addEventListener('click', function() {
   modal3.close();
 });
 
+modal3.addEventListener('click', (event) => {
+  if (event.target === modal3) {
+    modal3.close();
+  }
+});
 
 
 //MODAL4
@@ -64,6 +77,11 @@ openModal4.addEventListener('click', () => {
 
 closeModal4.addEventListener('click', function() {
   modal4.close();
+});
+modal4.addEventListener('click', (event) => {
+  if (event.target === modal4) {
+    modal4.close();
+  }
 });
 
 
@@ -81,6 +99,11 @@ openModal5.addEventListener('click', () => {
 closeModal5.addEventListener('click', function() {
   modal5.close();
 });
+modal5.addEventListener('click', (event) => {
+  if (event.target === modal5) {
+    modal5.close();
+  }
+});
 
 
 //MODAL6
@@ -95,6 +118,11 @@ openModal6.addEventListener('click', () => {
 
 closeModal6.addEventListener('click', function() {
   modal6.close();
+});
+modal6.addEventListener('click', (event) => {
+  if (event.target === modal6) {
+    modal6.close();
+  }
 });
 
 
@@ -113,6 +141,11 @@ openModal7.addEventListener('click', () => {
 closeModal7.addEventListener('click', function() {
   modal7.close();
 });
+modal7.addEventListener('click', (event) => {
+  if (event.target === modal7) {
+    modal7.close();
+  }
+});
 
 
 
@@ -129,10 +162,11 @@ openModal8.addEventListener('click', () => {
 closeModal8.addEventListener('click', function() {
   modal8.close();
 });
-
-
-
-
+modal8.addEventListener('click', (event) => {
+  if (event.target === modal8) {
+    modal8.close();
+  }
+});
 
 
 
