@@ -258,9 +258,18 @@ header .navbar ul li ul{
 }
 
   /* Media queries for responsive design */
+  @media (max-width: 1366px) {
+    .image-overlay {
+      font-size: 25px;
+      text-align: center;
+  }
+  .image-overlay p{
+    font-size: 18px;
+  }
+  }
   @media (max-width: 1000px) {
     .image-overlay {
-      font-size: 36px;
+      font-size: 31px;
       text-align: center;
   }
   }
@@ -742,6 +751,7 @@ footer{
     font-size: 10px;
   }
 }
+
 
 /* buttonto? */
 .buttontop {
